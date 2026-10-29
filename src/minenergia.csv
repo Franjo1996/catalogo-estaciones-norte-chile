@@ -1,0 +1,66 @@
+d05b;d05b;-24.98474;-69.86481;2113;activa;2010-06-19;2021-12-01;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5
+d05a;d05a;-25.01947;-69.87682;1975;activa;2010-06-20;2021-12-01;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5 rglb@5 bvlt@5
+b42;b4.2;-22.24871;-68.64218;2694;activa;2009-06-21;2015-04-09;eolo/20m;Calama;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+a02;a02;-21.47990;-69.72795;888;activa;2009-07-24;2012-12-14;eolo/20m;María Elena;vels@10/20 dirv@10 hrel@5 temp@5
+a06;a06;-21.15912;-70.02718;749.6;inactiva;2009-07-29;2010-06-08;eolo/20m;Iquique;vels@10/20 dirv@10 hrel@5 temp@5 pres@5
+b41;b4.1;-22.14742;-68.64060;2847.9;activa;2009-06-27;2015-04-09;eolo/20m;Calama;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+D02T2;Torre Taltal D02-T2;-25.08590;-69.95720;1902;activa;2019-01-01;2024-05-15;eolo/80m;Taltal;vels@20/50/80/108/110 dirv@20/108 rglb@10 pres@6 temp@5/40/108 hrel@5/108
+ARMAZ;Armazones 60m;-24.65306;-70.24194;2588;active;2010-10-07;2011-12-30;eolo/80m;Antofagasta;velB@60 vels@10/20/40/50 dirv@18/58 temp@3 pres@2 bvlt@0
+T80CO;Calama Oeste 80m;-22.50194;-69.03750;2113;activa;2011-02-21;2012-12-27;eolo/80m;Calama;vels@10/20/40/60/80 dirv@10/40/80 temp@2/40/80 hrel@2 rglb@2 pres@2 bvlt@2 temp_int@2
+T80TT;Taltal 80m;-25.06660;-69.85200;2113;activa;2010-02-21;2011-12-31;eolo/80m;Taltal;vels@20/40/60/80 dirv@60 temp@2/10/40 hrel@2 rnet@2 pres@2 bvlt@2 temp_int@2 velB@20/80
+c11;c1.1;-23.71666;-70.16864;617;inactiva;2010-06-24;2012-12-13;eolo/20m;Antofagasta;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+D04T3;Torre Taltal D04-T3;-25.08020;-69.65490;2542;activa;2018-12-18;2024-05-15;eolo/80m;Taltal;vels@20/50/80/108/110 dirv@20/108 rglb@10 pres@6 temp@5/40/108 hrel@5/108
+b51;b5.1;-22.50366;-69.03556;2104;activa;2009-07-02;2015-04-09;eolo/20m;Calama;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+PALM;Pozo Almonte;-20.25680;-69.77500;1024;active;2008-08-01;2021-11-16;solar/giz;Pozo Almonte;rglb@2 rglb_ta@2 rdif_ta@2 rdni_ta@2 temp@2 hrel@2 vels@2/4 bvlt@2 rsoz@2 tsoz@2 rdif@2 rglb_ref@2
+nama;Nama;-19.18820;-69.41124;3000;inactiva;2003-09-09;2005-04-05;eolo/pnud;Camiña;vels@20 dirv@20 rglb@3
+e02;e02;-23.66180;-67.36040;4463;activa;2012-12-20;2015-11-25;eolo/20m;San Pedro de Atacama;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+e01;e01;-23.89350;-67.42640;4320;activa;2012-12-19;2015-11-25;eolo/20m;San Pedro de Atacama;vels@10/20 dirv@10 hrel@5 temp@5
+ADDA;Aeropuerto Copiapó;-27.26390;-70.78060;210;active;2013-02-23;2014-06-03;solar/giz;Copiapó;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+SPED;San Pedro de Atacama;-22.97670;-68.16010;2390;active;2009-05-15;2014-06-07;solar/giz;San Pedro de Atacama;rglb@2 rglb_ta@2 rdif_ta@2 rdni_ta@2 temp@2 hrel@2 vels@2.5/4 bvlt@2 rdif@2 rglb_ref@2
+b21b;b2.1b;-22.89110;-69.01107;2350;activa;2010-06-12;2015-04-09;eolo/20m;Sierra Gorda;vels@10/20 dirv@10 hrel@5 temp@5
+b21a;b2.1a;-22.91965;-69.01363;2341.3;activa;2010-06-13;2014-11-14;eolo/20m;Sierra Gorda;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+b21;b2.1;-22.91552;-69.03604;2282;activa;2009-07-04;2015-04-09;eolo/20m;Sierra Gorda;vels@10/20 dirv@10 hrel@5 temp@5
+D09T1;Torre Taltal D09-T1;-24.97020;-69.99320;2075;activa;2018-12-31;2023-01-01;eolo/80m;Taltal;vels@20/50/80/108/110 dirv@20/108 rglb@10 pres@6 temp@5/40/108 hrel@5/108
+CRUC;Crucero;-22.27460;-69.56610;1176;active;2009-08-28;2014-11-26;solar/giz;María Elena;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+b31;b3.1;-22.93273;-69.13224;2080;activa;2009-07-03;2015-04-09;eolo/20m;Sierra Gorda;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+los_morros;Los Morros;-29.38039;-70.74307;1742;inactiva;2002-12-11;2005-05-18;eolo/pnud;La Higuera;vels@20 dirv@20 rglb@3
+SGORD;Sierra Gorda 80m;-22.93340;-69.13280;2069;activa;2010-02-20;2011-12-31;eolo/80m;Sierra Gorda;vels@20/40/60/80 dirv@60 temp@2/10/40 hrel@2 rnet@2 pres@2 bvlt@2 temp_int@2 velB@20/80
+sibaya;Sibaya;-19.77757;-69.17487;2778;inactiva;2003-12-17;2006-01-20;eolo/pnud;Huara;vels@20 dirv@20
+IDEO;Inca de Oro;-26.75320;-69.90600;1541;active;2010-03-25;2021-07-21;solar/giz;Diego de Almagro;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+cupo;Cupo;-22.11747;-68.31715;3393;inactiva;2003-12-05;2004-10-20;eolo/pnud;Calama;vels@20 dirv@20 rglb@3
+Loma_Hueso;Loma del Hueso;-28.90790;-71.45040;187;active;2006-09-28;2018-03-21;eolo/4reg;Freirina;vels@10/20 dirv@20
+punta_choro;Punta de Choros;-29.23822;-71.43020;16;inactiva;2006-06-02;2007-05-26;eolo/pnud;La Higuera;vels@10/20 dirv@0/20 temp@0
+T80CN;Calama Norte 80m;-22.24694;-68.64444;2698;activa;2011-02-21;2012-12-27;eolo/80m;Calama;vels@10/20/40/60/80 dirv@10/40/80 temp@2/40/80 hrel@2 rglb@2 pres@2 bvlt@2 temp_int@2
+SGORE;Sierra Gorda Este 80m;-22.91417;-69.03028;2299;activa;2011-02-21;2012-12-27;eolo/80m;Sierra Gorda;vels@10/20/40/60/80 dirv@10/40/80 temp@2/40/80 hrel@2 rglb@2 pres@2 bvlt@2 temp_int@2
+SALV;Aeródromo Salvador;-26.31270;-69.75040;1617;active;2010-08-09;2013-02-21;solar/giz;Diego de Almagro;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+ARMA;Armazones;-24.63460;-70.24260;2581;active;2010-10-30;2014-06-05;solar/giz;Antofagasta;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+a31;a3.1;-21.43389;-69.93823;718.9;inactiva;2009-07-27;2010-06-09;eolo/20m;Tocopilla;vels@10/20 dirv@10 hrel@5 temp@5
+SLAR;Salar (Chuquicamata);-22.34090;-68.87660;2407;active;2010-05-20;2013-01-01;solar/giz;Calama;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+c8;c8;-23.44922;-70.14075;773;inactiva;2009-07-05;2010-06-22;eolo/20m;Antofagasta;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+colchane;Colchane;-19.26669;-68.65000;4200;inactiva;2005-03-10;2007-05-26;eolo/pnud;Colchane;vels@10/20/30 dirv@30
+d06;d06;-25.17537;-69.57026;2484;inactiva;2009-07-16;2010-06-16;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5
+d05;d05;-25.07229;-69.83800;2176;activa;2009-07-10;2013-01-18;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+d04;d04;-25.09044;-69.65413;2550;activa;2009-07-14;2021-11-29;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5 rglb@5 bvlt@5
+d02;d02;-25.09593;-69.95613;1963;activa;2009-07-09;2022-01-03;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+d01;d01;-24.99512;-69.80556;2269;activa;2009-07-12;2021-11-29;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+d09;d09;-24.97553;-69.99643;2103;activa;2009-07-11;2021-12-01;eolo/20m;Taltal;vels@10/20 dirv@10 hrel@5 temp@5
+d08;d08;-24.98340;-70.12640;2187;active;2013-01-20;2021-11-30;eolo/20m;Antofagasta;vels@10/20 dirv@10 hrel@5 temp@5 rglb@5 bvlt@5
+b04;b04;-22.05936;-68.58535;3039;inactiva;2009-06-30;2010-06-14;eolo/20m;Calama;vels@10/20 dirv@10 hrel@5 temp@5
+san_marcos;San Marcos;-21.11220;-70.11789;18;inactiva;2004-01-07;2004-12-15;eolo/pnud;Iquique;vels@10/20 dirv@0/20 temp@3
+b08;b08;-22.53880;-69.08080;2149;active;2013-01-16;2015-04-09;eolo/20m;Calama;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+b61;b6.1;-22.50386;-69.20562;1716;activa;2009-07-01;2015-04-09;eolo/20m;María Elena;vels@10/20 dirv@10 hrel@5 temp@5
+llano_chocolate;Llanos de Chocolate;-28.96408;-71.24280;365;inactiva;2006-06-02;2007-05-26;eolo/pnud;Freirina;vels@0 dirv@0 temp@0
+ollague;Ollagüe;-21.23103;-68.25574;3720;inactiva;2003-10-26;2004-11-04;eolo/pnud;Ollagüe;vels@10/20 dirv@10/20
+pan_azucar;Pan de Azúcar;-26.14649;-70.65969;22;inactiva;2003-10-25;2004-11-30;eolo/pnud;Chañaral;vels@20 dirv@20 rglb@3
+b31a;b3.1a;-22.93847;-69.16889;1825;activa;2010-06-14;2015-04-09;eolo/20m;Sierra Gorda;vels@10/20 dirv@10 hrel@5 temp@5
+d10;d10;-24.93080;-69.89690;2085;active;2013-01-16;2021-12-01;eolo/20m;Antofagasta;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+c71;c7.1;-23.76491;-69.93395;647;activa;2009-07-30;2012-11-18;eolo/20m;Antofagasta;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+Crucero2;Crucero II;-22.27450;-69.56629;1183;active;2012-08-17;2021-08-17;solar/giz;María Elena;rglb@2 rdni@2 rdif@2 temp@2 hrel@2 vels@6/12 dirv@12 bvlt@0 tint@0
+chaca;Valle Chaca;-18.80398;-70.15283;48;inactiva;2003-01-23;2005-02-26;eolo/pnud;Arica;vels@0 dirv@0 rglb@35
+CAMA;Pampa Camarones;-18.85840;-70.21730;795;active;2010-01-26;2017-10-17;solar/giz;Camarones;rglb@2 rglb_ta@2 rdif_ta@2 rdni_ta@2 temp@2 hrel@2 vels@4/5 bvlt@2 rdif@2 rglb_ref@2
+a11;a1.1;-21.43362;-69.69503;797;inactiva;2009-07-28;2010-06-05;eolo/20m;Pozo Almonte;vels@10/20 dirv@10 hrel@5 temp@5
+PANG;Puerto Angamos;-23.07360;-70.38560;10;active;2010-05-16;2017-10-17;solar/giz;Mejillones;rglb_ta@2 rdif_ta@2 rglb@2 temp@2 hrel@2 vels@4 bvlt@2 rdni_ta@2
+a7;a7;-21.44884;-69.77896;826;inactiva;2009-07-25;2012-12-14;eolo/20m;María Elena;vels@10/20 dirv@10 hrel@5 temp@5 pres@5 rglb@5 bvlt@5
+CHAJNANTOR;Chajnantor;-23.00000;-67.70000;5149;;2019-10-11;2022-08-23;solar/cordero;San Pedro de Atacama;
+CALAMA;Calama;-22.50000;-68.90000;2291;;2020-12-30;2022-08-24;solar/cordero;Calama;
+CANCHONES;Canchones;-20.40000;-69.50000;985;;2019-05-11;2022-08-16;solar/cordero;Pozo Almonte;rdni_ta@2

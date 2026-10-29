@@ -1,0 +1,4 @@
+*.pkl
+__pycache__/
+src/v2/*.xlsx
+.DS_Store

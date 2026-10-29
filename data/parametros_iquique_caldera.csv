@@ -1,0 +1,794 @@
+﻿ID,Nombre,Red,Tipo,Parámetro,Altura sensor,Resolución más fina,Desde,Hasta,Cobertura (%),Técnica / instrumento,Operativa,Acceso a datos
+E-001,Mamiña retén,DMC,Meteorológico,Precipitación,,Diaria / sinóptica,1974,2015,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Evapotranspiración,,Diaria,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Humedad relativa,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Precipitación,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Temperatura del aire,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-002,"UNAP (Universidad Arturo Prat), Iquique",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Humedad relativa,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Precipitación,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Temperatura del aire,,1 minuto,1991,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-003,"La Huayca, Pozo Almonte",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-004,Aeropuerto Diego Aracena,DMC,Meteorológico,Humedad relativa,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-004,Aeropuerto Diego Aracena,DMC,Meteorológico,Precipitación,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-004,Aeropuerto Diego Aracena,DMC,Meteorológico,Radiación solar global,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-004,Aeropuerto Diego Aracena,DMC,Meteorológico,Temperatura del aire,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-004,Aeropuerto Diego Aracena,DMC,Meteorológico,Viento (dirección y velocidad),,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Estado del suelo,,Horaria (METAR/SYNOP),2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Evapotranspiración,,Diaria,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Heliofanía (horas de sol),,Horaria,1982,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Humedad relativa,,1 minuto,1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,"Nubosidad (cantidad, tipo, altura)",,Horaria (METAR/SYNOP),1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Precipitación,,1 minuto,1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Racha de viento,,1 minuto,1983,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Radiación UV (índice UV / irradiancia eritémica),,Horaria,2002,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Radiación UV-B,,Horaria,2022,2023,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Temperatura del aire,,1 minuto,1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Tendencia barométrica,,Horaria (METAR/SYNOP),2007,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Tiempo presente y pasado,,Horaria (METAR/SYNOP),1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Variación de la dirección del viento,,Horaria (METAR/SYNOP),2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-005,Diego Aracena Iquique Ap.,DMC,Meteorológico,Visibilidad,,Horaria (METAR/SYNOP),1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Evapotranspiración,,Diaria,2017,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Humedad relativa,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Precipitación,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Temperatura del aire,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-006,Ollagüe,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-007,Quillagua retén (Pueblo),DMC,Meteorológico,Temperatura del aire,,Diaria / sinóptica,1963,2016,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Evapotranspiración,,Diaria,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Humedad relativa,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Precipitación,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Temperatura del aire,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-008,Tocopilla (C.D.P),DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Evapotranspiración,,Diaria,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Humedad relativa,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Precipitación,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Temperatura del aire,,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-009,"Maria Elena, Salitrera",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-010,"Chorrillos, Calama",DMC,Meteorológico,Humedad relativa,,1 minuto,2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-010,"Chorrillos, Calama",DMC,Meteorológico,Precipitación,,1 minuto,2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-010,"Chorrillos, Calama",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-010,"Chorrillos, Calama",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-010,"Chorrillos, Calama",DMC,Meteorológico,Temperatura del aire,,1 minuto,2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-010,"Chorrillos, Calama",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-011,Aeródromo El Loa,DMC,Meteorológico,Humedad relativa,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-011,Aeródromo El Loa,DMC,Meteorológico,Precipitación,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-011,Aeródromo El Loa,DMC,Meteorológico,Temperatura del aire,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-011,Aeródromo El Loa,DMC,Meteorológico,Viento (dirección y velocidad),,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Cizalladura del viento,,Horaria (METAR/SYNOP),2011,2024,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Estado del suelo,,Horaria (METAR/SYNOP),2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Evaporación de bandeja,,Diaria,1966,2015,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Heliofanía (horas de sol),,Horaria,1985,2017,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Humedad relativa,,1 minuto,1965,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,"Nubosidad (cantidad, tipo, altura)",,Horaria (METAR/SYNOP),1965,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Perfiles verticales (radiosondeo),,Diaria (sondeo 12 UTC),2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Precipitación,,1 minuto,1966,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,1970,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Racha de viento,,1 minuto,1971,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2011,2017,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,1966,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Temperatura del aire,,1 minuto,1965,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Tendencia barométrica,,Horaria (METAR/SYNOP),1966,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Tiempo presente y pasado,,Horaria (METAR/SYNOP),1966,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Variación de la dirección del viento,,Horaria (METAR/SYNOP),2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,1965,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-012,"El Loa, Calama Ad.",DMC,Meteorológico,Visibilidad,,Horaria (METAR/SYNOP),1966,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-013,San Pedro de Atacama II (Universidad Católica del Norte - radiación UV),DMC,Meteorológico,Radiación UV (índice UV / irradiancia eritémica),,Horaria,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-014,San Pedro de Atacama (Universidad Católica del Norte - Radiación UV),DMC,Meteorológico,Radiación UV (índice UV / irradiancia eritémica),,Horaria,2008,2015,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-015,Llano de Chajnantor,DMC,Meteorológico,Humedad relativa,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-015,Llano de Chajnantor,DMC,Meteorológico,Temperatura del aire,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-015,Llano de Chajnantor,DMC,Meteorológico,Viento (dirección y velocidad),,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-016,Mejillones,DMC,Meteorológico,Evapotranspiración,,Diaria,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Humedad relativa,,1 minuto,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Precipitación,,1 minuto,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Temperatura del aire,,1 minuto,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-016,Mejillones,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2019,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Evapotranspiración,,Diaria,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Humedad relativa,,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Precipitación,,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Temperatura del aire,,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-017,Toconao,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Cizalladura del viento,,Horaria (METAR/SYNOP),2011,2025,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Estado del suelo,,Horaria (METAR/SYNOP),2008,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Evaporación de bandeja,,Diaria,1980,2017,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Heliofanía (horas de sol),,Horaria,1970,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Humedad relativa,,1 minuto,1944,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,"Nubosidad (cantidad, tipo, altura)",,Horaria (METAR/SYNOP),1944,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Perfiles verticales (radiosondeo),,Diaria (sondeo 12 UTC),1981,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Precipitación,,1 minuto,1950,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,1950,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Racha de viento,,1 minuto,1969,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Radiación UV (índice UV / irradiancia eritémica),,Horaria,2006,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2009,2019,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,1950,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Temperatura del aire,,1 minuto,1944,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Tendencia barométrica,,Horaria (METAR/SYNOP),1950,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Tiempo presente y pasado,,Horaria (METAR/SYNOP),1950,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Variación de la dirección del viento,,Horaria (METAR/SYNOP),2010,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,1944,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-018,Cerro Moreno Antofagasta Ap.,DMC,Meteorológico,Visibilidad,,Horaria (METAR/SYNOP),1950,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-019,Radiosonda Antofagasta (Cerro Moreno),DMC,Meteorológico,Altura geopotencial / presión (perfil),,1 sondeo diario (12 UTC),1981,2026,,,Sí,climatologia.meteochile.gob.cl (productos RadioSondas); también Univ. of Wyoming / IGRA
+E-019,Radiosonda Antofagasta (Cerro Moreno),DMC,Meteorológico,Humedad relativa / punto de rocío (perfil),,1 sondeo diario (12 UTC),1981,2026,,,Sí,climatologia.meteochile.gob.cl (productos RadioSondas); también Univ. of Wyoming / IGRA
+E-019,Radiosonda Antofagasta (Cerro Moreno),DMC,Meteorológico,Temperatura (perfil),,1 sondeo diario (12 UTC),1981,2026,,,Sí,climatologia.meteochile.gob.cl (productos RadioSondas); también Univ. of Wyoming / IGRA
+E-019,Radiosonda Antofagasta (Cerro Moreno),DMC,Meteorológico,Viento (dirección y velocidad) (perfil),,1 sondeo diario (12 UTC),1981,2026,,,Sí,climatologia.meteochile.gob.cl (productos RadioSondas); también Univ. of Wyoming / IGRA
+E-020,"AMDAR – aeronaves en aeropuertos de Antofagasta, Calama e Iquique",DMC,Meteorológico,Temperatura (perfil),,Por vuelo (irregular),,2026,,,Sí,climatologia.meteochile.gob.cl (Datos AMDAR; registro gratuito)
+E-020,"AMDAR – aeronaves en aeropuertos de Antofagasta, Calama e Iquique",DMC,Meteorológico,Viento (perfil),,Por vuelo (irregular),,2026,,,Sí,climatologia.meteochile.gob.cl (Datos AMDAR; registro gratuito)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Evapotranspiración,,Diaria,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Humedad relativa,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Precipitación,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Temperatura del aire,,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-021,"Universidad Católica del Norte, Antofagasta",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2016,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-022,Cerro Paranal,DMC,Meteorológico,Humedad relativa,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-022,Cerro Paranal,DMC,Meteorológico,Temperatura del aire,,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-022,Cerro Paranal,DMC,Meteorológico,Viento (dirección y velocidad),,Horaria,2025,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-023,Taltal,DMC,Meteorológico,Evapotranspiración,,Diaria,2014,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Humedad relativa,,1 minuto,2014,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Precipitación,,1 minuto,2014,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2014,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2014,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Temperatura del aire,,1 minuto,2014,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-023,Taltal,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2013,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-024,El Salvador comisaría,DMC,Meteorológico,Precipitación,,Diaria / sinóptica,1975,2015,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-025,"Ad. Ricardo García Posada, El Salvador",DMC,Meteorológico,Humedad relativa,,1 minuto,2023,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-025,"Ad. Ricardo García Posada, El Salvador",DMC,Meteorológico,Precipitación,,1 minuto,2023,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-025,"Ad. Ricardo García Posada, El Salvador",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2023,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-025,"Ad. Ricardo García Posada, El Salvador",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2023,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-025,"Ad. Ricardo García Posada, El Salvador",DMC,Meteorológico,Temperatura del aire,,1 minuto,2023,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-025,"Ad. Ricardo García Posada, El Salvador",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2023,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Evapotranspiración,,Diaria,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Humedad relativa,,1 minuto,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Precipitación,,1 minuto,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Temperatura del aire,,1 minuto,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-026,Caldera R.B.,DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2019,2019,,,No,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Estado del suelo,,Horaria (METAR/SYNOP),2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Evapotranspiración,,Diaria,2020,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Heliofanía (horas de sol),,Horaria,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Humedad relativa,,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,"Nubosidad (cantidad, tipo, altura)",,Horaria (METAR/SYNOP),2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Precipitación,,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Racha de viento,,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Radiación UV (índice UV / irradiancia eritémica),,Horaria,2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Radiación UV-B,,Horaria,2022,2023,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Radiación solar global,,10 minutos (producto DMC); 1 min en datos EMA,2011,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Temperatura de punto de rocío,,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Temperatura del aire,,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Tendencia barométrica,,Horaria (METAR/SYNOP),2006,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Tiempo presente y pasado,,Horaria (METAR/SYNOP),2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Variación de la dirección del viento,,Horaria (METAR/SYNOP),2006,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Viento (dirección y velocidad),10 m,1 minuto,2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-027,"Desierto de Atacama, Caldera Ad.",DMC,Meteorológico,Visibilidad,,Horaria (METAR/SYNOP),2005,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2020,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2020,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2017,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-028,Pica Inia,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2017,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2019,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2010,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-029,Ollagüe INIA,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2010,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-030,Chiu Chiu,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2010,2016,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-030,Chiu Chiu,INIA / Agromet,Meteorológico,Precipitación,,Horaria (15 min en SACLIM 2010–2016),2010,2016,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-030,Chiu Chiu,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2010,2016,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-030,Chiu Chiu,INIA / Agromet,Meteorológico,Temperatura de punto de rocío,,Horaria,2010,2016,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-030,Chiu Chiu,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2010,2016,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-030,Chiu Chiu,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2010,2016,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2019,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2012,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2012,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2012,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2018,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2012,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2012,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-031,Caspana,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2012,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2019,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Precipitación,,Horaria (15 min en SACLIM 2010–2016),2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2010,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-032,Calama Rural,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2010,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2019,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Precipitación,,Horaria (15 min en SACLIM 2010–2016),2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2015,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-033,San Pedro de Atacama INIA,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2010,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2019,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Precipitación,,Horaria (15 min en SACLIM 2010–2016),2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2010,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-034,Toconao,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2010,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2020,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2020,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2017,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-035,Camar,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2017,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2020,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2017,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-036,Altos La Portada,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2017,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2019,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Precipitación,,Horaria (15 min en SACLIM 2010–2016),2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2010,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2010,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-037,Socaire,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2010,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2020,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2017,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-038,La Cachina,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2017,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Evapotranspiración,,Diaria,2020,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Humedad relativa,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Precipitación,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria,2019,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Radiación solar global,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.10 m,Horaria,2017,2024,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Temperatura de suelo,-0.05 m,Horaria,2018,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Temperatura del aire,,Horaria,2017,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-039,Falda Verde,INIA / Agromet,Meteorológico,Viento (dirección y velocidad),2 m,Horaria,2017,2025,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Estado del suelo,,Horaria (METAR/SYNOP),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Heliofanía (horas de sol),,Diaria,2024,2025,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Humedad relativa,,Horaria (observación sinóptica),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,"Nubosidad (cantidad, tipo, altura)",,Horaria (METAR/SYNOP),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Precipitación,,Horaria (observación sinóptica),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria (observación sinóptica),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Racha de viento,,Horaria (observación sinóptica),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Temperatura de bulbo húmedo,,Horaria (METAR/SYNOP),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Temperatura de punto de rocío,,Horaria (observación sinóptica),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Temperatura del aire,,Horaria (observación sinóptica),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Tendencia barométrica,,Horaria (METAR/SYNOP),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Tiempo presente y pasado,,Horaria (METAR/SYNOP),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Viento (dirección y velocidad),10 m,Horaria (observación sinóptica),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-040,Centro Meteorológico Marítimo de Iquique,Armada (DIRECTEMAR),Meteorológico,Visibilidad,,Horaria (METAR/SYNOP),2024,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-041,Capitanía de Puerto Iquique,Armada – SERVIMET (vía Agromet),Meteorológico,Humedad relativa,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-041,Capitanía de Puerto Iquique,Armada – SERVIMET (vía Agromet),Meteorológico,Precipitación,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-041,Capitanía de Puerto Iquique,Armada – SERVIMET (vía Agromet),Meteorológico,Radiación solar global,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-041,Capitanía de Puerto Iquique,Armada – SERVIMET (vía Agromet),Meteorológico,Temperatura del aire,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-041,Capitanía de Puerto Iquique,Armada – SERVIMET (vía Agromet),Meteorológico,Viento (dirección y velocidad),,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-042,Capitanía de Puerto Patache,Armada – SERVIMET (vía Agromet),Meteorológico,Humedad relativa,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-042,Capitanía de Puerto Patache,Armada – SERVIMET (vía Agromet),Meteorológico,Precipitación,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-042,Capitanía de Puerto Patache,Armada – SERVIMET (vía Agromet),Meteorológico,Radiación solar global,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-042,Capitanía de Puerto Patache,Armada – SERVIMET (vía Agromet),Meteorológico,Temperatura del aire,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-042,Capitanía de Puerto Patache,Armada – SERVIMET (vía Agromet),Meteorológico,Viento (dirección y velocidad),,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-043,Capitanía de Puerto Tocopilla,Armada – SERVIMET (vía Agromet),Meteorológico,Humedad relativa,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-043,Capitanía de Puerto Tocopilla,Armada – SERVIMET (vía Agromet),Meteorológico,Precipitación,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-043,Capitanía de Puerto Tocopilla,Armada – SERVIMET (vía Agromet),Meteorológico,Radiación solar global,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-043,Capitanía de Puerto Tocopilla,Armada – SERVIMET (vía Agromet),Meteorológico,Temperatura del aire,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-043,Capitanía de Puerto Tocopilla,Armada – SERVIMET (vía Agromet),Meteorológico,Viento (dirección y velocidad),,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-044,Capitanía de Puerto Taltal,Armada – SERVIMET (vía Agromet),Meteorológico,Humedad relativa,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-044,Capitanía de Puerto Taltal,Armada – SERVIMET (vía Agromet),Meteorológico,Precipitación,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-044,Capitanía de Puerto Taltal,Armada – SERVIMET (vía Agromet),Meteorológico,Radiación solar global,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-044,Capitanía de Puerto Taltal,Armada – SERVIMET (vía Agromet),Meteorológico,Temperatura del aire,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-044,Capitanía de Puerto Taltal,Armada – SERVIMET (vía Agromet),Meteorológico,Viento (dirección y velocidad),,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-045,Capitanía de Puerto Chañaral,Armada – SERVIMET (vía Agromet),Meteorológico,Humedad relativa,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-045,Capitanía de Puerto Chañaral,Armada – SERVIMET (vía Agromet),Meteorológico,Precipitación,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-045,Capitanía de Puerto Chañaral,Armada – SERVIMET (vía Agromet),Meteorológico,Radiación solar global,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-045,Capitanía de Puerto Chañaral,Armada – SERVIMET (vía Agromet),Meteorológico,Temperatura del aire,,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-045,Capitanía de Puerto Chañaral,Armada – SERVIMET (vía Agromet),Meteorológico,Viento (dirección y velocidad),,Horaria,2026,2026,,,Sí,"agrometeorologia.cl (horario, diario; libre)"
+E-046,Capitanía de Puerto Caldera,Armada – SERVIMET (vía Agromet),Meteorológico,Humedad relativa,,Horaria,2026,,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-046,Capitanía de Puerto Caldera,Armada – SERVIMET (vía Agromet),Meteorológico,Precipitación,,Horaria,2026,,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-046,Capitanía de Puerto Caldera,Armada – SERVIMET (vía Agromet),Meteorológico,Radiación solar global,,Horaria,2026,,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-046,Capitanía de Puerto Caldera,Armada – SERVIMET (vía Agromet),Meteorológico,Temperatura del aire,,Horaria,2026,,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-046,Capitanía de Puerto Caldera,Armada – SERVIMET (vía Agromet),Meteorológico,Viento (dirección y velocidad),,Horaria,2026,,,,No,"agrometeorologia.cl (horario, diario; libre)"
+E-047,"Llano de Chajnantor, observatorio APEX",ESO (vía DMC),Meteorológico,Humedad relativa,,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-047,"Llano de Chajnantor, observatorio APEX",ESO (vía DMC),Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-047,"Llano de Chajnantor, observatorio APEX",ESO (vía DMC),Meteorológico,Temperatura de punto de rocío,,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-047,"Llano de Chajnantor, observatorio APEX",ESO (vía DMC),Meteorológico,Temperatura del aire,,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-047,"Llano de Chajnantor, observatorio APEX",ESO (vía DMC),Meteorológico,Viento (dirección y velocidad),10 m,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-048,"Cerro Paranal, observatorio astronómico",ESO (vía DMC),Meteorológico,Humedad relativa,,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-048,"Cerro Paranal, observatorio astronómico",ESO (vía DMC),Meteorológico,Presión atmosférica (QFE/QFF/QNH),,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-048,"Cerro Paranal, observatorio astronómico",ESO (vía DMC),Meteorológico,Temperatura de punto de rocío,,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-048,"Cerro Paranal, observatorio astronómico",ESO (vía DMC),Meteorológico,Temperatura del aire,,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-048,"Cerro Paranal, observatorio astronómico",ESO (vía DMC),Meteorológico,Viento (dirección y velocidad),10 m,Horaria (vía DMC),2026,2026,,,Sí,climatologia.meteochile.gob.cl (datos minutarios EMA: registro gratuito; horarios/diarios libres)
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2004-12-09,2026-10-28,,ATENUACION BETA- MET ONE 102,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Meteorológico,Humedad relativa,3 m,Horaria,2004-12-09,2026-10-27,,SENSOR - MET ONE 83E,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2016-02-16,2026-10-27,,SENSOR - MET ONE 096-1,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Meteorológico,Temperatura del aire,3 m,Horaria,2016-02-16,2017-07-21,,SENSOR - MET ONE 83E,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2004-12-09,2026-10-27,,SENSOR - MET ONE 83E,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2004-12-09,2026-10-27,,SENSOR - MET ONE 020C,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-049,Alto Hospicio (Alto Hospicio),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2004-12-09,2026-10-27,,SENSOR - MET ONE 010C,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-050,Tres Marias (Tocopilla),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2011-02-19,2026-10-28,,Espectrometría Laser,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-050,Tres Marias (Tocopilla),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2011-02-19,2026-10-28,,Espectrometría Láser,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-050,Tres Marias (Tocopilla),SINCA (calidad del aire),Meteorológico,Temperatura del aire,4 m,Horaria,2011-07-20,2026-10-28,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-050,Tres Marias (Tocopilla),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2011-07-20,2026-10-28,,SENSOR YOUNG 157316,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-050,Tres Marias (Tocopilla),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2011-07-20,2026-10-28,,SENSOR YOUNG 157316,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,CO,,Horaria,2011-12-05,2019-07-16,,Fotometría infrarroja no dis,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2000-01-03,2019-07-16,,Método basado en el principi,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2011-12-05,2019-07-16,,Atenuación Beta,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,NO,,Horaria,2004-03-01,2019-07-16,,Quimiluminiscencia,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,NO2,,Horaria,2000-01-01,2019-07-16,,Quimiluminiscencia,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,NOx,,Horaria,2004-03-01,2019-07-16,,Quimiluminiscencia,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,O3,,Horaria,2011-12-15,2019-07-16,,Fotometría de absorción ultr,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2007-12-31,2019-07-16,,Fluorescencia ultravioleta,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Meteorológico,Humedad relativa,3 m,Horaria,2011-12-15,2019-07-17,,Sensor Multivariable,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Meteorológico,Presión atmosférica,3 m,Horaria,2011-12-15,2019-07-17,,Sensor Multivariable,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2011-12-15,2019-07-17,,Detector Fotovoltaico,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2011-12-15,2019-07-17,,Sensor Multivariable,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2005-12-31,2019-07-17,,Sensor Multivariable,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-051,Escuela E-10 (Tocopilla),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2005-12-31,2019-07-17,,Sensor Multivariable,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,CO,,Horaria,2019-07-17,2026-10-28,,Infrarrojo,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2019-07-17,2026-10-28,,Atenuación Beta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2019-07-17,2026-10-28,,Atenuación Beta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,NO,,Horaria,2019-07-17,2026-10-27,,Fluorescencia Ultravioleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,NO2,,Horaria,2019-07-17,2026-10-28,,Fluorescencia Ultravioleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,NOx,,Horaria,2019-07-17,2026-10-27,,Quimiluminiscencia,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,O3,,Horaria,2019-07-17,2026-10-28,,Continuo Absorción luz ultra,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2019-07-17,2026-10-28,,Fluorescencia ultravioleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2019-08-12,2026-10-28,,Capacitivo,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Meteorológico,Presión atmosférica,2 m,Horaria,2019-08-12,2026-10-28,,Material piezoeléctrico,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2019-08-12,2026-10-28,,Piranómetro,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2019-08-12,2026-10-28,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2019-08-13,2026-10-28,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-052,Super Site (Tocopilla),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2019-08-12,2026-10-28,,Anemómetro,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-053,Gobernación (Tocopilla),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2004-06-01,2026-10-28,,Método basado en el principi,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-053,Gobernación (Tocopilla),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2004-06-01,2026-10-28,,Fluorescencia ultravioleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-054,Bomberos (Tocopilla),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2009-02-28,2026-10-28,,Atenuación Beta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2008-04-28,2019-03-04,,Continuo Absorción luz ultra,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2004-02-21,2019-03-05,,Termistor,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Meteorológico,Presión atmosférica,3 m,Horaria,2008-12-31,2019-03-05,,Material piezoeléctrico,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2008-12-31,2019-03-05,,Piranómetro,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2004-02-21,2019-03-05,,Resistencia RTD,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2004-01-31,2019-03-05,,Veleta,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-055,Chiu Chiu (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2004-01-31,2019-03-05,,Anemómetro con tres copas ve,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2019-08-16,2026-10-28,,Gravimetría (Otros),Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2019-08-01,2026-10-28,,Continuo Absorción luz ultra,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2019-08-01,2026-10-28,,Termistor,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Precipitación,No informada,Horaria,2019-08-01,2026-10-28,,Balancín con switch magnétic,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Presión atmosférica,No informada,Horaria,2019-08-01,2026-10-28,,Material piezoeléctrico,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Radiación solar global,No informada,Horaria,2019-08-01,2026-10-28,,Piranómetro,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2019-08-01,2026-10-28,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2019-08-01,2026-10-28,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-056,Nueva ChiuChiu (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2019-08-01,2026-10-28,,Anemómetro con tres copas ve,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2012-11-06,2026-10-28,,Gravimétrica continuo y disc,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2012-12-02,2026-10-28,,Gravimétrica continua y disc,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2012-11-30,2026-10-28,,Termistor,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2012-11-30,2026-10-20,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2012-11-30,2026-10-20,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2012-11-30,2026-10-28,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-057,Colegio Pedro Vergara Keller (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2012-11-30,2026-10-28,,Anemómetro con tres copas ve,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2002-01-05,2026-10-28,,Gravimetría (Otros),Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2015-01-06,2026-10-27,,Gravimetria (Otros),Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2002-01-24,2026-10-27,,Continuo Absorción luz ultra,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,No informada,Horaria,2015-06-01,2026-10-28,,Termistor,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2011-12-27,2020-11-04,,Termistor,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Precipitación,2 m,Horaria,2002-12-31,2020-11-04,,Balancín con switch magnétic,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Precipitación,No informada,Horaria,2016-08-19,2026-10-28,,Balancín con switch magnétic,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Presión atmosférica,3 m,Horaria,2004-12-18,2026-10-28,,Material piezoeléctrico,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2002-12-31,2026-10-28,,Piranómetro,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2004-12-18,2026-10-28,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2002-12-31,2026-10-28,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2002-12-31,2026-10-28,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-058,Hospital del Cobre (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2003-01-08,2026-10-28,,Anemómetro con tres copas ve,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2012-10-25,2026-10-28,,Gravimétrica continuo y disc,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2012-10-18,2026-10-28,,Gravimétrica continua y disc,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2018-10-20,2026-10-28,,Continuo Absorción luz ultra,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2012-10-18,2026-10-28,,Termistor,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2012-10-18,2026-10-20,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2012-10-30,2026-10-20,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2012-10-18,2026-10-28,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-059,Club Deportivo 23 de Marzo (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2012-10-18,2026-10-28,,Anemómetro con tres copas ve,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-060,Servicio Médico Legal (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2008-04-09,2020-11-03,,Continuo Absorción luz ultra,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,CO,,Horaria,2012-10-18,2025-12-31,,Continuo Absorción luz infra,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2012-10-19,2025-12-31,,Gravimétrica continuo y disc,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2012-10-18,2025-12-31,,Gravimétrica continua y disc,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,NO,,Horaria,2012-10-18,2025-12-31,,Continuo Absorción luz ultra,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,NO2,,Horaria,2012-11-06,2025-12-31,,Quimiluminiscencia,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,NOx,,Horaria,2012-10-18,2025-12-31,,Quimiluminiscencia,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,O3,,Horaria,2012-10-18,2025-12-31,,Fotometria Ultravioleta,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2012-10-19,2025-12-31,,Continuo Absorción luz ultra,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2012-10-19,2020-03-04,,Termistor,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,4 m,Horaria,2012-10-18,2026-01-01,,Termistor,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2012-10-19,2026-01-01,,Resistencia RTD,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2012-10-19,2020-03-04,,Resistencia RTD,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,4 m,Horaria,2013-01-05,2026-01-01,,Resistencia RTD,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2012-10-19,2026-01-01,,Veleta,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,4 m,Horaria,2020-08-03,2026-01-01,,Veleta,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,4 m,Horaria,2020-08-03,2026-01-01,,Anemómetro con tres copas ve,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-061,Estación Centro (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2012-10-19,2026-01-01,,Anemómetro con tres copas ve,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-062,Oasis (Calama),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2012-02-01,2026-10-28,,Continuo Absorción luz ultra,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-062,Oasis (Calama),SINCA (calidad del aire),Meteorológico,Humedad relativa,2 m,Horaria,2020-08-03,2026-10-28,,Termistor,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-062,Oasis (Calama),SINCA (calidad del aire),Meteorológico,Radiación solar global,No informada,Horaria,2020-08-03,2026-10-28,,Piranómetro,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-062,Oasis (Calama),SINCA (calidad del aire),Meteorológico,Temperatura del aire,2 m,Horaria,2020-08-03,2026-10-28,,Resistencia RTD,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-062,Oasis (Calama),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2020-08-03,2026-10-28,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-062,Oasis (Calama),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2020-08-03,2026-10-28,,Anemómetro con tres copas ve,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-063,Sierra Gorda (Sierra Gorda),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2012-09-10,2026-10-26,,Atenuación Beta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-063,Sierra Gorda (Sierra Gorda),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2012-09-11,2026-10-26,,Atenuación Beta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-063,Sierra Gorda (Sierra Gorda),SINCA (calidad del aire),Meteorológico,Temperatura del aire,18 m,Horaria,2012-09-10,2026-10-27,,Termocupla,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-063,Sierra Gorda (Sierra Gorda),SINCA (calidad del aire),Meteorológico,Viento – dirección,18 m,Horaria,2012-09-10,2026-10-27,,Veleta,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-063,Sierra Gorda (Sierra Gorda),SINCA (calidad del aire),Meteorológico,Viento – velocidad,18 m,Horaria,2012-09-10,2026-10-27,,Anemómetro,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Calidad del aire,NO,,Horaria,2000-01-01,2026-10-27,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Calidad del aire,NO2,,Horaria,2000-01-01,2026-10-28,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Calidad del aire,NOx,,Horaria,2000-01-01,2026-10-27,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Meteorológico,Humedad relativa,3 m,Horaria,2019-09-29,2026-07-10,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2019-09-29,2020-05-27,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2019-09-29,2026-07-10,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2019-09-29,2026-07-16,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-064,Jardín Infantil Integra (Mejillones),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2019-09-29,2026-07-10,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Calidad del aire,NO,,Horaria,2019-09-29,2026-10-27,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Calidad del aire,NO2,,Horaria,2019-09-29,2026-07-09,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Calidad del aire,NOx,,Horaria,2019-09-29,2026-10-27,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Meteorológico,Humedad relativa,3 m,Horaria,2019-09-29,2026-07-10,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Meteorológico,Radiación solar global,3 m,Horaria,2019-09-29,2020-05-27,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Meteorológico,Temperatura del aire,10 m,Horaria,2019-09-29,2026-07-10,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Meteorológico,Viento – dirección,10 m,Horaria,2019-09-29,2026-08-09,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-065,Juan Jose Latorre (Mejillones),SINCA (calidad del aire),Meteorológico,Viento – velocidad,10 m,Horaria,2019-09-29,2026-07-10,,No informado,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-066,Rendic (Antofagasta),SINCA (calidad del aire),Calidad del aire,"MP10 (gravimétrico, muestras de 24 h)",,Diaria (muestra de 24 h),2013-01-01,2025-07-30,,No informado,No,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-067,Antofagasta (Antofagasta),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2013-06-01,2026-10-28,,ATENUACION BETA- MET ONE 102,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-067,Antofagasta (Antofagasta),SINCA (calidad del aire),Calidad del aire,"MP2,5",,Horaria,2013-04-27,2026-10-28,,ATENUACION BETA- MET ONE 102,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-067,Antofagasta (Antofagasta),SINCA (calidad del aire),Calidad del aire,SO2,,Horaria,2018-05-31,2026-10-28,,FLUORESCENCIA PULSANTE - THE,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-068,Oncológico (Antofagasta),SINCA (calidad del aire),Calidad del aire,"MP10 (gravimétrico, muestras de 24 h)",,Diaria (muestra de 24 h),2013-01-01,2026-07-28,,Método gravimétrico de muest,Probable,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-069,Chañaral (Chañaral),SINCA (calidad del aire),Calidad del aire,MP10,,Horaria,2024-03-31,2026-10-28,,Método basado en el principi,Sí,"sinca.mma.gob.cl (series horarias descargables, libre)"
+E-070,Huaytani,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1982,2019,86.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-071,Parca,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1977,2025,87.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-071,Parca,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2019,2020,66.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-072,Coyacagua,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1961,2019,94.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-073,Cerro Colorado,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1993,2019,94.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-073,Cerro Colorado,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1993,2015,87.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-074,Mamiña,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1986,2025,88.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-074,Mamiña,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2019,2020,66.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-075,Diablo Marca,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2011,2016,64.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-076,Río Collacagua en Peñablanca,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2014,2016,55.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-077,Huara en Fuerte Baquedano,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1993,2025,76.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-077,Huara en Fuerte Baquedano,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1993,2020,63.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-078,Altos del Huasco,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2011,2016,66.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-079,Iquique,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1984,2025,93.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-079,Iquique,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2019,2020,66.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-080,Sillillica,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2011,2016,65.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-081,Coposa,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1982,2019,62.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-081,Coposa,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2015,2015,41.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-082,Guatacondo DGA,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1977,2019,96.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-083,Río Huatacondo en Copaquire,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2011,2025,67.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-083,Río Huatacondo en Copaquire,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2019,2019,17.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-084,Ujina,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1974,2019,75.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-084,Ujina,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1973,2015,18.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-085,Ollagüe,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1971,2025,64.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-085,Ollagüe,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1973,2018,41.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-086,Lequena,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1973,2019,97.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-087,Río Loa antes Represa Lequena,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2001,2025,87.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-088,Quillagua,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1970,2019,92.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-089,Ascotán,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1974,2017,88.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-090,Quinchamale,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1995,2019,97.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-091,Parshall N°2,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1969,2015,94.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-092,Conchi Viejo,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1973,2017,87.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-093,Ojos San Pedro,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1969,2017,83.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-094,Río Loa en Vado Santa Bárbara,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2023,2025,39.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-095,Río Siloli antes B.T. FCAB,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2012,2025,73.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-096,Silala,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2001,2019,91.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-097,Conchi Embalse,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1967,2019,84.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-097,Conchi Embalse,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1967,2016,80.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-098,Inacaliri,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1969,2019,96.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-099,Río Loa en salida Embalse Conchi,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2012,2025,69.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-100,Tocopilla,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1994,2025,92.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-100,Tocopilla,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2015,2017,74.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-101,Cupo,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1978,2025,82.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-102,Linzor,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1973,2025,83.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-102,Linzor,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1973,2019,71.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-103,Toconce,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1972,2019,98.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-103,Toconce,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1993,2016,82.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-104,Ayquina,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1967,2019,95.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-104,Ayquina,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1993,2016,88.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-105,Río Salado A. J. Curti,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2012,2025,27.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-106,Salado Embalse,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1975,2025,87.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-106,Salado Embalse,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2012,2020,53.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-107,Río Salado en Sifón Ayquina,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2001,2025,76.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-108,Chiu-Chiu,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1974,2019,97.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-108,Chiu-Chiu,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1979,2016,95.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-109,El Tatio,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1977,2025,88.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-109,El Tatio,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1983,2020,64.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-110,Río Loa en Escorial,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2021,2025,67.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-111,Calama,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1965,2025,89.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-112,Río Grande,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1977,2019,99.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-113,Río San Pedro en Cuchabrache,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2022,2025,60.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-114,Sierra Gorda,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1994,2025,88.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-114,Sierra Gorda,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1994,2020,88.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-115,San Pedro de Atacama,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1959,2017,60.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-116,Paso Jama,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-117,Toconao Quebrada 4,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-118,Toconao Pueblo,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-119,Talabre,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1995,2019,96.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-120,Baquedano,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1975,2025,83.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-120,Baquedano,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1973,2020,34.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-121,Camar,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1979,2019,100.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-122,Liceo Científico Humanista La Chimba,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2015,2025,45.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-122,Liceo Científico Humanista La Chimba,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2015,2016,61.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-123,Liceo Científico Humanista la Chimba,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2015,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-124,Socaire,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1974,2017,95.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-125,Antofagasta,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1978,2025,96.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-126,Escuela Fundación Minera Escondida,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2015,2017,79.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-127,Quebrada Farellones,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-128,Esc. Fundación minera Escondida,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2015,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-129,Quebrada La Cadena,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-130,Quebrada el Toro,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-131,Peine,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1974,2019,97.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-131,Peine,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1974,2016,84.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-132,Quebrada Jardines del Sur,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-133,Universidad de Antofagasta,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2015,2017,72.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-134,Paso Sico,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-135,Quebrada Guanaqueros,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-136,Salar de Punta Negra,DGA,Meteorológico,Precipitación (probable; a confirmar con DGA),,Horaria (transmisión satelital),2016,,,,Sin información,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-137,Aguas Verdes,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1987,2019,95.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-137,Aguas Verdes,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,1987,2016,85.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-138,Taltal (DCP),DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,2015,2025,80.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-138,Taltal (DCP),DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2015,2020,81.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-139,Taltal,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1971,2016,74.0,,No,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-140,Las Vegas,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1984,2025,93.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-140,Las Vegas,DGA,Meteorológico,Temperatura del aire (máx./mín. diaria),,Diaria (base consolidada); horaria en línea,2016,2020,60.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-141,Caldera,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1992,2025,87.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-142,Pastos Grandes,DGA,Meteorológico,Precipitación,,Diaria (base consolidada); horaria en línea,1966,2025,90.0,,Probable,"DGA: BNA (snia.mop.gob.cl, diaria oficial) y transmisión satelital en línea (horaria); CR2 Explorador Climático (diaria)"
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Dirección de viento,3m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Humedad Relativa,2m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Precipitación,1.5m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Presión Atmosférica,2m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Radiación Solar,2m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Temperatura del Aire,2m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-143,Salar de Huasco,CEAZA-Met,Meteorológico,Velocidad de Viento,3m,Horaria (mín./prom./máx.),2015-09-25,2021-05-29,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Dirección de viento,2m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Humedad Hoja,0m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Humedad Relativa,1.5m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Humedad del Suelo,-0.1/-0.2/-0.5m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Precipitación,1.5m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Presión Atmosférica,2m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Radiación PAR,0m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Radiación Solar,2m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Temperatura de Suelo,-0.1/-0.2/-0.5m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Temperatura del Aire,1.5m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-144,Punta Patache [IEB],CEAZA-Met,Meteorológico,Velocidad de Viento,2m,Horaria (mín./prom./máx.),2009-12-22,2017-09-24,,,No,ceazamet.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación difusa,2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación difusa (seguidor solar),2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación directa normal (seguidor solar),2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación global (seguidor solar),2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación global (sensor de referencia),2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,2 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-145,Pozo Almonte,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,4 m,10 minutos,2008-08-01,2021-11-16,,,No,walker.dgf.uchile.cl
+E-146,Canchones,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación directa normal (seguidor solar),2 m,10 minutos,2019-05-11,2022-08-16,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-147,b4.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-06-27,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-148,b4.2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-06-21,2015-04-09,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,2 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación difusa,2 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación directa normal,2 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,2 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,2 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,12 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,6 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-149,Crucero II,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,12 m,10 minutos,2012-08-17,2021-08-17,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-150,b5.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-02,2015-04-09,,,No,walker.dgf.uchile.cl
+E-151,b6.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-01,2015-04-09,,,No,walker.dgf.uchile.cl
+E-151,b6.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-01,2015-04-09,,,No,walker.dgf.uchile.cl
+E-151,b6.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-01,2015-04-09,,,No,walker.dgf.uchile.cl
+E-151,b6.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-01,2015-04-09,,,No,walker.dgf.uchile.cl
+E-151,b6.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-01,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-152,b08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2013-01-16,2015-04-09,,,No,walker.dgf.uchile.cl
+E-153,b2.1b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2010-06-12,2015-04-09,,,No,walker.dgf.uchile.cl
+E-153,b2.1b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2010-06-12,2015-04-09,,,No,walker.dgf.uchile.cl
+E-153,b2.1b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2010-06-12,2015-04-09,,,No,walker.dgf.uchile.cl
+E-153,b2.1b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2010-06-12,2015-04-09,,,No,walker.dgf.uchile.cl
+E-153,b2.1b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2010-06-12,2015-04-09,,,No,walker.dgf.uchile.cl
+E-154,b2.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-04,2015-04-09,,,No,walker.dgf.uchile.cl
+E-154,b2.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-04,2015-04-09,,,No,walker.dgf.uchile.cl
+E-154,b2.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-04,2015-04-09,,,No,walker.dgf.uchile.cl
+E-154,b2.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-04,2015-04-09,,,No,walker.dgf.uchile.cl
+E-154,b2.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-04,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-155,b3.1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-03,2015-04-09,,,No,walker.dgf.uchile.cl
+E-156,b3.1a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2010-06-14,2015-04-09,,,No,walker.dgf.uchile.cl
+E-156,b3.1a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2010-06-14,2015-04-09,,,No,walker.dgf.uchile.cl
+E-156,b3.1a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2010-06-14,2015-04-09,,,No,walker.dgf.uchile.cl
+E-156,b3.1a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2010-06-14,2015-04-09,,,No,walker.dgf.uchile.cl
+E-156,b3.1a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2010-06-14,2015-04-09,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,2 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación difusa (seguidor solar),2 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación directa normal (seguidor solar),2 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación global (seguidor solar),2 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,2 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,2 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-157,Puerto Angamos,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,4 m,10 minutos,2010-05-16,2017-10-17,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-158,e02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2012-12-20,2015-11-25,,,No,walker.dgf.uchile.cl
+E-159,e01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2012-12-19,2015-11-25,,,No,walker.dgf.uchile.cl
+E-159,e01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2012-12-19,2015-11-25,,,No,walker.dgf.uchile.cl
+E-159,e01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2012-12-19,2015-11-25,,,No,walker.dgf.uchile.cl
+E-159,e01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2012-12-19,2015-11-25,,,No,walker.dgf.uchile.cl
+E-159,e01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2012-12-19,2015-11-25,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-160,d10,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2013-01-16,2021-12-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,108 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,6 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,10 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,40 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,108 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,20 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,108 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,50 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,80 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,108 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-161,Torre Taltal D09-T1,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,110 m,10 minutos,2018-12-31,2023-01-01,,,No,walker.dgf.uchile.cl
+E-162,d09,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-11,2021-12-01,,,No,walker.dgf.uchile.cl
+E-162,d09,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-11,2021-12-01,,,No,walker.dgf.uchile.cl
+E-162,d09,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-11,2021-12-01,,,No,walker.dgf.uchile.cl
+E-162,d09,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-11,2021-12-01,,,No,walker.dgf.uchile.cl
+E-162,d09,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-11,2021-12-01,,,No,walker.dgf.uchile.cl
+E-163,d08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2013-01-20,2021-11-30,,,No,walker.dgf.uchile.cl
+E-163,d08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2013-01-20,2021-11-30,,,No,walker.dgf.uchile.cl
+E-163,d08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2013-01-20,2021-11-30,,,No,walker.dgf.uchile.cl
+E-163,d08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2013-01-20,2021-11-30,,,No,walker.dgf.uchile.cl
+E-163,d08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2013-01-20,2021-11-30,,,No,walker.dgf.uchile.cl
+E-163,d08,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2013-01-20,2021-11-30,,,No,walker.dgf.uchile.cl
+E-164,d05b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2010-06-19,2021-12-01,,,No,walker.dgf.uchile.cl
+E-164,d05b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2010-06-19,2021-12-01,,,No,walker.dgf.uchile.cl
+E-164,d05b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2010-06-19,2021-12-01,,,No,walker.dgf.uchile.cl
+E-164,d05b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2010-06-19,2021-12-01,,,No,walker.dgf.uchile.cl
+E-164,d05b,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2010-06-19,2021-12-01,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-165,d01,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-12,2021-11-29,,,No,walker.dgf.uchile.cl
+E-166,d05a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2010-06-20,2021-12-01,,,No,walker.dgf.uchile.cl
+E-166,d05a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2010-06-20,2021-12-01,,,No,walker.dgf.uchile.cl
+E-166,d05a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2010-06-20,2021-12-01,,,No,walker.dgf.uchile.cl
+E-166,d05a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2010-06-20,2021-12-01,,,No,walker.dgf.uchile.cl
+E-166,d05a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2010-06-20,2021-12-01,,,No,walker.dgf.uchile.cl
+E-166,d05a,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2010-06-20,2021-12-01,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,108 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,6 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,10 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,40 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,108 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,20 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,108 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,50 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,80 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,108 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-167,Torre Taltal D04-T3,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,110 m,10 minutos,2018-12-18,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,108 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,6 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,10 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,40 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,108 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,20 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,108 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,50 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,80 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,108 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-168,Torre Taltal D02-T2,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,110 m,10 minutos,2019-01-01,2024-05-15,,,No,walker.dgf.uchile.cl
+E-169,d04,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-14,2021-11-29,,,No,walker.dgf.uchile.cl
+E-169,d04,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-07-14,2021-11-29,,,No,walker.dgf.uchile.cl
+E-169,d04,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-14,2021-11-29,,,No,walker.dgf.uchile.cl
+E-169,d04,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-14,2021-11-29,,,No,walker.dgf.uchile.cl
+E-169,d04,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-14,2021-11-29,,,No,walker.dgf.uchile.cl
+E-169,d04,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-14,2021-11-29,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,5 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Presión atmosférica,5 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,5 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,5 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – dirección,10 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,10 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-170,d02,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,20 m,10 minutos,2009-07-09,2022-01-03,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Humedad relativa,2 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación difusa (seguidor solar),2 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación directa normal (seguidor solar),2 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación global (seguidor solar),2 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Radiación solar global,2 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Temperatura del aire,2 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl
+E-171,Inca de Oro,Ministerio de Energía (campaña eólica y solar),Meteorológico,Viento – velocidad,4 m,10 minutos,2010-03-25,2021-07-21,,,No,walker.dgf.uchile.cl

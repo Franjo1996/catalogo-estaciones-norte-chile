@@ -1,0 +1,236 @@
+<title>Estaciones del Norte Grande y Atacama</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: cartographic workbench — header strip, map left (tall, north-south country), filters + station card right, filtered table below */
+:root{
+  --bg:#f3f5f7; --panel:#ffffff; --ink:#18232e; --muted:#5d6b78; --line:#d9e0e6;
+  --land:#e6e2d8; --land-other:#eef0ee; --sea:#dfe9f0; --border:#b9b2a3; --accent:#0e5a8a;
+  --op:#1f8a4c; --warn:#b7791f; --off:#8a94a0;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11171d; --panel:#18212a; --ink:#e4eaf0; --muted:#97a5b2; --line:#2a3642;
+  --land:#2c2a25; --land-other:#1d2329; --sea:#0f1a23; --border:#5b5548; --accent:#5fb2e6;
+  --op:#4cc27e; --warn:#e0a84a; --off:#7b8794; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11171d; --panel:#18212a; --ink:#e4eaf0; --muted:#97a5b2; --line:#2a3642;
+  --land:#2c2a25; --land-other:#1d2329; --sea:#0f1a23; --border:#5b5548; --accent:#5fb2e6;
+  --op:#4cc27e; --warn:#e0a84a; --off:#7b8794; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1360px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;border-bottom:2px solid var(--ink);padding-bottom:12px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,3.4vw,38px);line-height:1.05;margin:0;letter-spacing:.2px;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;max-width:68ch}
+.counts{display:flex;gap:22px;flex-wrap:wrap;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.counts div{display:flex;flex-direction:column}
+.counts b{font-size:24px;font-weight:500}
+.counts span{font-family:var(--body);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.main{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:1fr}}
+.mapbox{background:var(--sea);border:1px solid var(--line);position:relative;min-width:0}
+#map{display:block;width:100%;height:auto;touch-action:none;cursor:grab}
+.maptools{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:6px}
+.maptools button{width:32px;height:32px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:600 16px var(--body);cursor:pointer}
+.maphint{position:absolute;left:10px;bottom:8px;font-size:11px;color:var(--muted);background:color-mix(in srgb,var(--panel) 80%,transparent);padding:2px 6px}
+.side{display:flex;flex-direction:column;gap:14px;min-width:0}
+.box{background:var(--panel);border:1px solid var(--line);padding:14px 16px}
+.lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:transparent;color:var(--ink);
+  padding:4px 9px;font:13px var(--body);cursor:pointer;border-radius:999px}
+.chip[aria-pressed="false"]{opacity:.42}
+.chip:focus-visible,.maptools button:focus-visible,input:focus-visible,select:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.chip small{font-family:var(--mono);color:var(--muted)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>*{flex:1 1 160px;min-width:0}
+input[type=search],select{width:100%;padding:7px 9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:14px var(--body)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+#card h2{font-family:var(--display);font-size:24px;margin:0 0 2px;line-height:1.1;text-wrap:balance}
+#card .meta{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:10px}
+dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:6px 12px;margin:0;font-size:14px}
+dt{color:var(--muted);font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding-top:2px}
+dd{margin:0;overflow-wrap:anywhere}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid currentColor}
+.s-op{color:var(--op)}.s-prob,.s-new,.s-rec{color:var(--warn)}.s-off,.s-unk{color:var(--off)}
+a{color:var(--accent)}
+.empty{color:var(--muted);margin:0}
+.tablewrap{background:var(--panel);border:1px solid var(--line);overflow:auto;max-height:520px}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:820px}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
+  padding:9px 10px;border-bottom:2px solid var(--ink);cursor:pointer;white-space:nowrap}
+td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody tr{cursor:pointer}
+tbody tr:hover,tbody tr.sel{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.tabhead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.tabhead h3{font-family:var(--display);font-size:20px;margin:0}
+.foot{font-size:12px;color:var(--muted);max-width:90ch}
+svg text{font-family:var(--display);fill:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Estaciones meteorológicas del norte de Chile</h1>
+      <p class="sub">Arica y Parinacota, Tarapacá, Antofagasta y Atacama. Metadatos de 11 redes compilados al 28 de octubre de 2026. Punto lleno: estación operativa; anillo: sin datos recientes o cerrada.</p>
+    </div>
+    <div class="counts" id="counts"></div>
+  </header>
+
+  <div class="main">
+    <div class="mapbox">
+      <svg id="map" viewBox="0 0 640 980" role="img" aria-label="Mapa de estaciones del norte de Chile"></svg>
+      <div class="maptools"><button id="zin" aria-label="Acercar">+</button><button id="zout" aria-label="Alejar">−</button><button id="zreset" aria-label="Restablecer vista">⟲</button></div>
+      <div class="maphint">Arrastra para mover · rueda o +/− para acercar · clic en un punto para ver la ficha</div>
+    </div>
+
+    <div class="side">
+      <div class="box">
+        <p class="lbl">Red</p>
+        <div class="chips" id="redchips"></div>
+      </div>
+      <div class="box">
+        <div class="row">
+          <div><p class="lbl">Estado</p>
+            <select id="fstate"><option value="">Todos</option><option value="op">Operativas</option><option value="prob">Probablemente operativas o nuevas</option><option value="rec">Sin datos recientes</option><option value="off">Inactivas / cerradas</option><option value="unk">Sin información</option></select></div>
+          <div><p class="lbl">Región</p>
+            <select id="freg"><option value="">Todas</option><option>Arica y Parinacota</option><option>Tarapacá</option><option>Antofagasta</option><option>Atacama</option></select></div>
+        </div>
+        <div class="row" style="margin-top:10px">
+          <div><p class="lbl">Variable medida</p>
+            <select id="fvar"><option value="">Cualquiera</option><option value="emp|precip">Precipitación</option><option value="temp">Temperatura</option><option value="hum">Humedad relativa</option><option value="pres">Presión</option><option value="vient|velocidad">Viento</option><option value="radiaci">Radiación</option><option value="sondeo">Perfiles verticales</option></select></div>
+          <div><p class="lbl">Buscar</p><input type="search" id="fq" placeholder="Nombre, código o comuna"></div>
+        </div>
+        <div class="legend" style="margin-top:12px">
+          <span><i style="background:var(--muted)"></i>operativa</span>
+          <span><i style="border:2px solid var(--muted)"></i>no operativa / sin info</span>
+        </div>
+      </div>
+      <div class="box" id="card"></div>
+    </div>
+  </div>
+
+  <div class="tabhead"><h3 id="tabtitle">Estaciones</h3><span class="foot">Ordena con clic en el encabezado. Detalle por variable, periodo y altura de sensor en la planilla adjunta.</span></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th data-k="id">ID</th><th data-k="n">Nombre</th><th data-k="k">Red</th><th data-k="reg">Región</th><th data-k="z">Altitud</th><th data-k="v">Variables</th><th data-k="i">Desde</th><th data-k="f">Hasta</th><th data-k="e">Estado</th></tr></thead>
+    <tbody id="tb"></tbody></table></div>
+  <p class="foot">Fuentes: DMC–SACLIM (climatologia.meteochile.gob.cl), CR2 Explorador Climático (datos DGA), CEAZA-Met, Ministerio de Energía – campaña eólica y solar (walker.dgf.uchile.cl), SINCA–MMA. Contornos: Natural Earth (world-atlas). El estado se infiere del último dato publicado por cada fuente; ver criterios en la hoja “Léame” de la planilla.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const ST = __STATIONS__;
+const BASE = __BASE__;
+const NETS = {
+  DMC:{n:'DMC',c:'#1f5fa8'}, DGA:{n:'DGA',c:'#0f9aa8'}, INIA:{n:'INIA / Agromet',c:'#5f9e2f'}, FDF:{n:'FDF',c:'#a36bb8'},
+  CEAZA:{n:'CEAZA-Met',c:'#d9822b'}, MINEN:{n:'Min. Energía (torres y solar)',c:'#c4393b'}, SINCA:{n:'SINCA (calidad del aire)',c:'#7d6e5b'},
+  CODELCO:{n:'CODELCO',c:'#b8962e'}, ESO:{n:'ESO',c:'#5361c9'}, OTRA:{n:'USACH / Armada',c:'#6b7a88'}
+};
+const ACTIVE = new Set(['op','prob','new']);
+const on = {}; Object.keys(NETS).forEach(k=>on[k]=true);
+let selId=null, sortK='id', sortDir=1;
+
+// chips
+const rc=document.getElementById('redchips');
+Object.entries(NETS).forEach(([k,o])=>{
+  const n=ST.filter(s=>s.k===k).length; if(!n) return;
+  const b=document.createElement('button'); b.className='chip'; b.id='chip-'+k; b.setAttribute('aria-pressed','true');
+  b.innerHTML=`<span class="dot" style="background:${o.c}"></span>${o.n} <small>${n}</small>`;
+  b.onclick=e=>{ if(e.altKey||e.metaKey){Object.keys(on).forEach(x=>on[x]=x===k);} else on[k]=!on[k];
+    document.querySelectorAll('#redchips .chip').forEach(c=>c.setAttribute('aria-pressed',on[c.id.slice(5)]));render();};
+  rc.appendChild(b);
+});
+
+// map
+const W=640,H=980, svg=d3.select('#map');
+const proj=d3.geoMercator().fitExtent([[18,18],[W-18,H-18]],{type:'MultiPoint',coordinates:[[-71.9,-17.3],[-66.9,-29.45]]});
+const path=d3.geoPath(proj);
+const g=svg.append('g');
+g.append('rect').attr('x',-5000).attr('y',-5000).attr('width',12000).attr('height',12000).attr('fill','var(--sea)');
+g.selectAll('path.c').data(BASE.features).join('path').attr('d',path)
+  .attr('fill',d=>d.properties.name==='Chile'?'var(--land)':'var(--land-other)').attr('stroke','var(--border)').attr('stroke-width',.8).attr('vector-effect','non-scaling-stroke');
+// latitude ticks
+const grid=g.append('g');
+for(let la=-18;la>=-29;la--){const y=proj([-72,la])[1];
+  grid.append('line').attr('x1',0).attr('x2',W).attr('y1',y).attr('y2',y).attr('stroke','var(--border)').attr('stroke-opacity',.35).attr('stroke-dasharray','2 4').attr('vector-effect','non-scaling-stroke');
+  grid.append('text').attr('class','lat').attr('x',6).attr('y',y-3).attr('font-size',11).text(`${-la}°S`);}
+const labels=[['Arica',-18.48,-70.31],['Iquique',-20.22,-70.15],['Calama',-22.46,-68.93],['Antofagasta',-23.65,-70.40],['Taltal',-25.40,-70.48],['Copiapó',-27.37,-70.33],['Vallenar',-28.58,-70.76]];
+const lab=g.append('g');
+labels.forEach(([t,la,lo])=>{const [x,y]=proj([lo,la]);lab.append('text').attr('class','city').attr('x',x-8).attr('y',y+4).attr('text-anchor','end').attr('font-size',12).attr('font-weight',600).text(t);});
+const pts=g.append('g');
+let k0=1;
+const zoom=d3.zoom().scaleExtent([1,18]).on('zoom',e=>{g.attr('transform',e.transform);k0=e.transform.k;
+  pts.selectAll('circle').attr('r',d=>(d.id===selId?6.5:4)/Math.sqrt(k0)).attr('stroke-width',d=>(ACTIVE.has(d.s)?.6:1.6)/Math.sqrt(k0));
+  g.selectAll('text.city,text.lat').attr('font-size',function(){return (this.classList.contains('city')?12:11)/k0});});
+svg.call(zoom);
+document.getElementById('zin').onclick=()=>svg.transition().duration(250).call(zoom.scaleBy,1.6);
+document.getElementById('zout').onclick=()=>svg.transition().duration(250).call(zoom.scaleBy,1/1.6);
+document.getElementById('zreset').onclick=()=>svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);
+
+function filtered(){
+  const fs=document.getElementById('fstate').value, fr=document.getElementById('freg').value,
+        fv=document.getElementById('fvar').value, q=document.getElementById('fq').value.trim().toLowerCase();
+  const re=fv?new RegExp(fv,'i'):null;
+  return ST.filter(s=>on[s.k]
+    && (!fs || (fs==='prob'?(s.s==='prob'||s.s==='new'):s.s===fs))
+    && (!fr || s.reg===fr)
+    && (!re || re.test(s.v||'') || (fv==='temp' && /temperatura/i.test(s.v||'')))
+    && (!q || (s.n+' '+s.c+' '+s.o+' '+s.id+' '+(s.no||'')).toLowerCase().includes(q)));
+}
+function fmtNum(x){return x==null?'—':x.toLocaleString('es-CL');}
+function render(){
+  const F=filtered();
+  const nOp=F.filter(s=>s.s==='op').length;
+  document.getElementById('counts').innerHTML=
+    `<div><b>${F.length}</b><span>estaciones</span></div><div><b>${nOp}</b><span>operativas</span></div><div><b>${new Set(F.map(s=>s.k)).size}</b><span>redes</span></div>`;
+  pts.selectAll('circle').data(F.slice().sort((a,b)=>ACTIVE.has(a.s)-ACTIVE.has(b.s)),d=>d.id).join('circle')
+    .attr('cx',d=>proj([d.lo,d.la])[0]).attr('cy',d=>proj([d.lo,d.la])[1])
+    .attr('r',d=>(d.id===selId?6.5:4)/Math.sqrt(k0))
+    .attr('fill',d=>ACTIVE.has(d.s)?NETS[d.k].c:'var(--panel)')
+    .attr('fill-opacity',d=>ACTIVE.has(d.s)?.92:.85)
+    .attr('stroke',d=>ACTIVE.has(d.s)?'var(--panel)':NETS[d.k].c)
+    .attr('stroke-width',d=>(ACTIVE.has(d.s)?.6:1.6)/Math.sqrt(k0))
+    .style('cursor','pointer')
+    .on('click',(e,d)=>select(d.id))
+    .selectAll('title').data(d=>[d]).join('title').text(d=>`${d.n} · ${NETS[d.k].n} · ${d.e}`);
+  if(selId){pts.selectAll('circle').filter(d=>d.id===selId).raise();}
+  // table
+  const T=F.slice().sort((a,b)=>{const x=a[sortK],y=b[sortK];return (x==null)-(y==null)||(x>y?1:x<y?-1:0)*sortDir;});
+  document.getElementById('tabtitle').textContent=`Estaciones (${T.length})`;
+  document.getElementById('tb').innerHTML=T.map(s=>`<tr data-id="${s.id}" tabindex="0" class="${s.id===selId?'sel':''}"><td class="num">${s.id}</td><td>${esc(s.n)}</td><td><span class="dot" style="display:inline-block;background:${NETS[s.k].c};margin-right:6px"></span>${NETS[s.k].n}</td><td>${s.reg}</td><td class="num">${fmtNum(s.z)}</td><td>${esc(s.v||'—')}</td><td class="num">${s.i??'—'}</td><td class="num">${s.f??'—'}</td><td><span class="pill s-${s.s}">${s.e}</span></td></tr>`).join('');
+}
+function esc(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function select(id){
+  selId=id; const s=ST.find(x=>x.id===id);
+  const c=document.getElementById('card');
+  c.innerHTML=`<p class="lbl" style="color:${NETS[s.k].c}">${NETS[s.k].n}</p><h2>${esc(s.n)}</h2>
+   <div class="meta">${s.id} · código ${esc(s.c)}${s.o?' · '+esc(s.o):''}</div>
+   <dl>
+    <dt>Estado</dt><dd><span class="pill s-${s.s}">${s.e}</span><div style="font-size:13px;color:var(--muted);margin-top:3px">${esc(s.cr)}</div></dd>
+    <dt>Ubicación</dt><dd class="num" style="font-family:var(--mono);font-size:13px">${s.la.toFixed(4)}, ${s.lo.toFixed(4)} · ${s.z!=null?fmtNum(s.z)+' m s.n.m.':'altitud no informada'}<br><span style="font-family:var(--body)">${s.reg}</span></dd>
+    <dt>Propietario</dt><dd>${esc(s.p)}</dd>
+    <dt>Tipo</dt><dd>${esc(s.t)}</dd>
+    <dt>Variables</dt><dd>${esc(s.v||'Sin inventario publicado')}</dd>
+    <dt>Sensores</dt><dd>${esc(s.h||'—')}</dd>
+    <dt>Datos</dt><dd>${s.i??'—'} – ${s.f??'—'}</dd>
+    ${s.no?`<dt>Notas</dt><dd>${esc(s.no)}</dd>`:''}
+    <dt>Fuente</dt><dd><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.u.replace(/^https?:\/\//,''))}</a></dd>
+   </dl>`;
+  render();
+}
+document.getElementById('tb').addEventListener('click',e=>{const tr=e.target.closest('tr');if(tr)select(tr.dataset.id);});
+document.getElementById('tb').addEventListener('keydown',e=>{if(e.key==='Enter'){const tr=e.target.closest('tr');if(tr)select(tr.dataset.id);}});
+document.querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;render();});
+['fstate','freg','fvar','fq'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+render();
+select(ST.find(s=>s.c==='230001').id);
+</script>

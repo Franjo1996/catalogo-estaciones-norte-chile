@@ -1,0 +1,112 @@
+220023;;;Calama Rural;-22.47111;-68.94306;2244;INIA;11-09-2010;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;1;T:2010-2026 HR:2010-2026 P:2019-2026 PP:2010-2026 V2:2010-2025 RAD:2010-2026 TSUELO:2010-2026 ET:2019-2025 RS:2024-2025
+220024;;;San Pedro de Atacama INIA;-22.93222;-68.21333;2416;INIA;18-11-2010;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;1;T:2010-2026 HR:2010-2026 P:2019-2026 PP:2010-2026 V2:2010-2025 RAD:2010-2026 TSUELO:2010-2026 ET:2019-2025 RS:2024-2025
+220025;;;Cerro Chajnator (CCAT) USACH;-22.95917;-67.78583;5149;USACH;15-04-2021;A;Climatológica;Cordillera;Antofagasta;N;N;Estación automática;0;
+220026;;;Chorrillos, Calama;-22.45;-68.91028;2298;DMC;21-12-2023;A;Climatológica;PreCordillera;Antofagasta;N;N;DMC;1;T:2024-2026 HR:2024-2026 P:2024-2026 PP:2024-2026 V10:2024-2026 RS:2024-2026
+220027;;;Tocopilla (C.D.P);-22.06389;-70.18611;81;DMC;21-11-2025;A;Climatológica;Litoral;Antofagasta;N;N;Direccion Meteorológica de Chile;0;T:2026-2026 HR:2026-2026 P:2026-2026 PP:2026-2026 V10:2026-2026 RAD:2026-2026 ET:2026-2026
+220028;;;Maria Elena, Salitrera;-22.34333;-69.67167;1292;DMC;21-11-2025;A;Climatológica;Valle;Antofagasta;N;N;Alex Lambert (Encargado GRD DPP);1;T:2026-2026 HR:2026-2026 P:2026-2026 PP:2026-2026 V10:2026-2026 RAD:2026-2026 ET:2026-2026 RS:2026-2026
+220029;;;DRT;-22.23778;-68.80917;3300;CODELCO;11-05-2026;A;Climatológica;Valle;Antofagasta;N;N;Codelco;0;
+220030;;;Talabre;-22.34028;-68.68305;2582;CODELCO;12-05-2026;A;Climatológica;PreCordillera;Atacama;N;N;Codelco;0;
+220031;;;Turí;-22.16028;-68.30667;3178;CODELCO;12-05-2026;A;Climatológica;Valle;Arica y Parinacota;N;N;Codelco;0;
+220032;;;Montecristo;-22.28889;-69.00028;3110;CODELCO;24-08-2026;A;Climatológica;PreCordillera;Antofagasta;N;N;Direccion meteorologica de Chile;0;
+220901;;;El Loa - Chuquicamata CODELCO;-22.29944;-68.89389;2854;DMC;01-11-1975;C;Climatológica;PreCordillera;Antofagasta;N;N;Pedro Honores González;0;T:1975-1976 PP:1975-1976
+220903;;;Pedro de Valdivia;-22.58333;-69.66667;0;DMC;01-07-1963;C;TermoPluviométrica;Valle;Antofagasta;N;N;Funcionario pedro de Valdivia;0;T:1963-1971 PP:1963-1971
+230001;85442;SCFA;Cerro Moreno Antofagasta Ap.;-23.45361;-70.44528;139;DMC;03-06-1944;M;Sinóptica Aeronáutica;Litoral;Antofagasta;S;S;Direccion Meteorologica de Chile;1;T:1944-2026 HR:1944-2026 P:1944-2026 PP:1950-2026 V10:1944-2026 RAD:2009-2019 SOL:1970-2026 UV:2006-2026 ET:1980-2017 NUB:1944-2026 RS:1981-2026
+230002;85443;;Universidad Católica del Norte, Antofagasta;-23.68083;-70.41111;31;DMC;01-06-1968;A;Climatológica;Litoral;Antofagasta;N;N;José Cerda Molina;1;T:2016-2026 HR:2016-2026 P:2016-2026 PP:2016-2026 V10:2016-2026 RAD:2016-2026 SOL:1981-1986 ET:2016-2026
+230003;;;Pampa Uribe Comunidad GEN;-23.93333;-70.36667;560;DMC;01-10-1987;C;Climatológica;Litoral;Antofagasta;N;N;Carlos Espinoza A.;0;
+230004;85439;;Toconao;-23.18611;-68.00556;2495;DMC;01-12-1998;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática (Red Básica);1;T:2013-2026 HR:2013-2026 P:2013-2026 PP:2013-2026 V10:2013-2026 RAD:2013-2026 ET:2013-2026 RS:2024-2026
+230005;;;Toconao Quebrada 4;-23.15305;-67.89833;3465;DGA;01-04-2016;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;
+230006;;;Toconao Pueblo;-23.18194;-68.00389;2698;DGA;01-04-2016;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;
+230007;;;Baquedano;-23.33111;-69.84;1037;DGA;01-04-1975;A;Climatológica;Valle;Antofagasta;N;N;Est. Automática;0;
+230008;;;Quebrada La Chimba;-23.55861;-70.39528;33;DGA;01-04-2016;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230009;;;Liceo Científico Humanista la Chimba;-23.55917;-70.39389;40;DGA;01-06-2015;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230010;;;Quebrada Bonilla;-23.58278;-70.37417;112;DGA;01-04-2016;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230011;;;Antofagasta;-23.5975;-70.38639;50;DGA;01-01-1978;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230012;;;Quebrada Farellones;-23.61444;-70.37028;185;DGA;01-04-2016;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230013;;;Quebrada La Cadena;-23.62694;-70.375;139;DGA;01-04-2016;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230014;;;Esc. Fundación minera Escondida;-23.61861;-70.3725;176;DGA;01-06-2015;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230015;;;Quebrada el Toro;-23.66805;-70.39611;89;DGA;01-04-2016;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230016;;;Universidad de Antofagasta;-23.70167;-70.42083;28;DGA;01-06-2015;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+230017;;;Quebrada Jardines del Sur;-23.70167;-70.42083;26;DGA;01-04-2016;A;Climatológica;Valle;Antofagasta;N;N;Est. Automática;0;
+230018;;;Paso Sico;-23.82167;-67.44;4295;DGA;01-04-2016;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;
+230019;;;Toconao;-23.19055;-68.00722;2478;INIA;04-09-2010;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;T:2010-2026 HR:2010-2026 P:2019-2026 PP:2010-2026 V2:2010-2025 RAD:2010-2026 TSUELO:2010-2026 ET:2019-2025 RS:2024-2025
+230020;;;Socaire;-23.59055;-67.89;3357;INIA;18-11-2010;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;T:2010-2026 HR:2010-2026 P:2019-2026 PP:2010-2026 V2:2010-2025 RAD:2010-2026 TSUELO:2010-2026 ET:2019-2025 RS:2024-2025
+230021;85438;;Llano de Chajnantor, observatorio APEX;-23.00583;-67.75917;5000;ESO;03-10-2018;A;Climatológica;Valle;Antofagasta;N;N;Estación automática ESO;1;T:2026-2026 HR:2026-2026 P:2026-2026 V10:2026-2026 RS:2026-2026
+230022;85440;;Mejillones;-23.10917;-70.44333;31;DMC;23-11-2018;A;Climatológica;Litoral;Antofagasta;N;N;Estación automática (Red Básica) (Carlos;1;T:2019-2026 HR:2019-2026 P:2019-2026 PP:2019-2026 V10:2019-2026 RAD:2019-2026 ET:2019-2026
+230023;;;Camar;-23.40722;-67.96361;2694;INIA;09-08-2017;A;Climatológica;Cordillera;Antofagasta;N;N;Estación automática;0;T:2017-2026 HR:2017-2026 P:2020-2026 PP:2017-2026 V2:2017-2025 RAD:2017-2026 TSUELO:2017-2026 ET:2020-2025 RS:2025-2025
+230024;;;Altos La Portada;-23.50417;-70.40472;105;INIA;11-08-2017;A;Climatológica;Litoral;Antofagasta;N;N;Estación automática;1;T:2017-2026 HR:2017-2026 P:2017-2026 PP:2017-2026 V2:2017-2025 RAD:2017-2026 TSUELO:2017-2026 ET:2020-2025
+230028;;;DGM;-23.44306;-68.83472;2568;CODELCO;24-08-2026;A;Climatológica;PreCordillera;Antofagasta;N;N;Direccion Meteorológica de Chile;0;
+230901;;;Sierra Gorda, Baquedano;-23.33111;-69.84111;1034;DMC;01-12-1955;C;TermoPluviométrica;Valle;Antofagasta;N;N;Observador Baquedano;0;T:1963-1968 PP:1963-1968
+230905;;;Antofagasta, Oficina Meteorológica;-23.7;-70.4;94;DMC;01-01-1932;C;Climatológica;Litoral;Antofagasta;N;N;S/I;0;T:1941-1944 HR:1941-1944 P:1941-1944 V10:1941-1944 NUB:1941-1944
+240001;;;Socompa retén;-24.45028;-68.29083;3884;DMC;01-12-1984;C;Climatológica;Cordillera;Antofagasta;N;N;Carabineros de Chile;0;
+240003;;;Quebrada Guanaqueros;-24.44139;-68.55306;4029;DGA;01-04-2016;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;
+240004;;;Salar de Punta Negra;-24.54556;-68.9275;2952;DGA;01-04-2016;A;Climatológica;Cordillera;Antofagasta;N;N;Est. Automática;0;
+240005;85448;;Cerro Paranal, observatorio astronómico;-24.6275;-70.40472;2648;ESO;03-10-2018;A;Climatológica;Litoral;Antofagasta;N;N;Estación automática - ESO;1;T:2026-2026 HR:2026-2026 P:2026-2026 V10:2026-2026 RS:2026-2026
+250003;;;Catalina retén;-25.26139;-69.70389;2174;DMC;01-03-1963;C;TermoPluviométrica;PreCordillera;Antofagasta;N;N;carabineros de Chile;0;T:1963-1973 PP:1963-1973
+250005;85455;;Taltal;-25.41111;-70.48417;37;DMC;13-11-2012;A;Climatológica;Litoral;Antofagasta;N;N;Automática (Red Básica) ubicada en Carab;1;T:2014-2026 HR:2014-2026 P:2014-2026 PP:2014-2026 V10:2013-2026 RAD:2013-2026 ET:2014-2026
+250006;;;Quebrada Tal -Tal;-25.40333;-70.47972;90;DGA;01-04-2016;A;Climatológica;Litoral;Antofagasta;N;N;Est. Automática;0;
+250007;;;La Cachina;-25.43389;-70.45333;213;INIA;05-10-2017;A;Climatológica;Litoral;Antofagasta;N;N;Estación automática;1;T:2017-2026 HR:2017-2026 P:2017-2026 PP:2017-2026 V2:2017-2025 RAD:2017-2026 TSUELO:2017-2026 ET:2020-2025
+260001;;;El Salvador comisaría;-26.24639;-69.62611;2240;DMC;01-11-1961;C;Pluviométrica;Valle;Atacama;N;N;Carabineros de Chile;0;PP:1975-2015
+260002;85460;SCRA;Chañaral Ad.;-26.33222;-70.61083;23;DMC;01-03-1954;C;Sinóptica Aeronáutica;Litoral;Atacama;N;N;Observador Meteorológico;0;T:1954-2002 HR:1954-2002 P:1954-2002 PP:1954-2002 V10:1954-2002 SOL:1981-1986 NUB:1954-2002
+260003;;;Llanta control (retén);-26.33305;-69.82333;1187;DMC;01-11-1961;C;Pluviométrica;Cordillera;Atacama;N;N;Carabineros de Chile;0;PP:1974-2000
+260004;85461;SCRO;Potrerillos;-26.43472;-69.48083;2877;DMC;01-01-1919;C;Climatológica;Valle;Atacama;N;N;José Rojas Olivares;0;PP:1979-1982
+260005;;;Inca de Oro retén;-26.75528;-69.90528;1592;DMC;01-11-1961;C;Pluviométrica;PreCordillera;Atacama;N;N;Carabineros de Chile;0;PP:1979-2003
+260008;;;Las Vegas;-26.67944;-69.66722;2250;DGA;01-01-1984;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+260009;;;Falda Verde;-26.29972;-70.62417;127;INIA;01-09-2017;A;Climatológica;Litoral;Atacama;N;N;Estación automática;1;T:2017-2026 HR:2017-2026 P:2019-2026 PP:2017-2026 V2:2017-2025 RAD:2017-2026 TSUELO:2017-2026 ET:2020-2025
+260010;;;Ad. Ricardo García Posada, El Salvador;-26.31305;-69.75139;1597;DMC;04-08-2023;A;Climatológica;Valle;Atacama;N;N;Oscar Reynuaba;1;T:2023-2026 HR:2023-2026 P:2023-2026 PP:2023-2026 V10:2023-2026 RS:2024-2026
+260013;;;La Ola;-26.48944;-69.06917;3730;CODELCO;12-05-2026;A;Climatológica;PreCordillera;Atacama;N;N;Codelco;0;
+260014;;;Los Arrollos;-26.63305;-69.04;3717;CODELCO;12-05-2026;A;Climatológica;PreCordillera;Atacama;N;N;Codelco;0;
+260015;;;CAP;-26.42361;-69.50694;2665;CODELCO;12-05-2026;A;Climatológica;PreCordillera;Atacama;N;N;Codelco;0;
+260016;;;Doña Ines;-26.43639;-69.48305;2868;CODELCO;12-05-2026;A;Climatológica;PreCordillera;Atacama;N;N;Codelco;0;
+260901;;;Pueblo Hundido retén;-26.39111;-70.04611;788;DMC;01-12-1962;C;TermoPluviométrica;Valle;Atacama;N;N;Carabineros de Chile;0;T:1963-1974 PP:1963-1975
+270002;85470;SCHA;Copiapó, Chamonate Ad.;-27.29944;-70.41417;305;DMC;01-01-1946;C;Sinóptica Aeronáutica;Valle;Atacama;N;N;DGAC;0;T:1951-2013 HR:1951-2013 P:1952-2013 PP:1951-2013 V10:1951-2013 SOL:1981-1996 NUB:1951-2013
+270003;;;Copiapó particular;-27.36805;-70.31;434;DMC;01-01-1935;C;Pluviométrica;Valle;Atacama;N;N;Luis Bogdanic Bassi;0;PP:1979-2009
+270004;;;Los Loros retén;-27.83222;-70.10722;956;DMC;01-08-1932;C;TermoPluviométrica;Valle;Atacama;N;N;Carabineros de Chile;0;T:1991-2007 PP:1979-2007
+270006;85466;SCCL;Caldera;-27.05333;-70.84583;27;DMC;01-01-1870;C;Sinóptica;Litoral;Atacama;N;N;Observador est. Sinóptica Caldera;0;PP:1950-1972
+270007;;;Copiapó;-27.36139;-70.33972;380;DGA;01-01-1971;A;Climatológica;Valle;Atacama;N;N;Est. Automática;0;
+270008;85467;SCAT;Desierto de Atacama, Caldera Ad.;-27.25444;-70.78111;204;DMC;20-01-2005;M;Sinóptica Aeronáutica;Secano Costero;Atacama;S;S;Iván Molina Encalada (Anexo 2887-1840-18;1;T:2005-2026 HR:2005-2026 P:2005-2026 PP:2005-2026 V10:2005-2026 RAD:2011-2026 SOL:2005-2026 UV:2011-2026 ET:2020-2026 NUB:2005-2026
+270009;85471;;Copiapó Universidad de Atacama;-27.35889;-70.35333;362;DMC;02-11-2016;A;Climatológica;Valle;Atacama;N;N;Estación Automática (Red Básica);1;T:2016-2026 HR:2016-2026 P:2016-2026 PP:2016-2026 V10:2016-2026 RAD:2016-2026 ET:2016-2026
+270010;;;Caldera;-27.06833;-70.8175;23;DGA;01-03-1992;A;Climatológica;Litoral;Atacama;N;N;Est. Automática;0;
+270011;;;Río Copiapó en la Puerta;-27.8075;-70.12833;888;DGA;01-10-2010;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+270012;;;Lautaro EMB.;-27.97889;-70.00444;1129;DGA;01-05-1930;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+270013;;;Amolana;-27.95972;-70.01;1090;INIA;01-04-2012;A;Climatológica;Valle;Atacama;N;N;Est. Automática;1;T:2012-2026 HR:2012-2026 P:2013-2026 PP:2012-2026 V2:2012-2025 RAD:2012-2026 ET:2019-2025 RS:2024-2025
+270014;;;Copiapó INIA;-27.35;-70.41;346;INIA;20-03-2009;A;Climatológica;Valle;Atacama;N;N;Est. Automática (INIA);0;
+270015;85465;;Caldera R.B.;-27.07583;-70.82111;50;DMC;12-10-2018;A;Climatológica;Litoral;Atacama;N;N;Estación automática (Red Básica);0;T:2019-2019 HR:2019-2019 P:2019-2019 PP:2019-2019 V10:2019-2019 RAD:2019-2019 ET:2019-2019
+270016;;;Copiapo;-27.34583;-70.40778;574;FDF;08-10-2019;A;Climatológica;PreCordillera;Atacama;N;N;Estación Automática (FDF);1;T:2009-2026 HR:2009-2026 P:2009-2026 PP:2009-2026 V2:2009-2026 RAD:2009-2026 ET:2019-2026
+270017;;;Tierra Amarilla, Tranque Lautaro;-28.97555;-70;1173;FDF;08-10-2019;A;Climatológica;Valle;Atacama;N;N;Estacion Automática;1;T:2009-2026 HR:2009-2026 P:2009-2026 PP:2009-2026 V2:2009-2026 RAD:2009-2026 ET:2020-2026 RS:2024-2026
+270018;;;Tierra Amarilla, Jotabeche;-27.58889;-70.24472;601;FDF;08-10-2019;A;Climatológica;Valle;Atacama;N;N;Estacion Automática (FDF);1;T:2010-2026 HR:2010-2026 P:2010-2026 PP:2010-2026 V2:2010-2026 RAD:2010-2026 ET:2020-2026
+270019;;;Tierra Amarilla, Hornitos;-27.72917;-70.19667;772;FDF;08-10-2019;A;Climatológica;Valle;Atacama;N;N;Estacion Automatica (FDF);1;T:2010-2026 HR:2010-2026 P:2010-2026 PP:2010-2026 V2:2010-2026 RAD:2010-2026 ET:2020-2026 RS:2024-2026
+270020;;;Copiapo, Bodega;-27.34361;-70.37305;346;FDF;08-10-2019;C;Climatológica;PreCordillera;Atacama;N;N;Estación Automatica (FDF);1;T:2010-2026 HR:2010-2026 P:2010-2026 PP:2010-2026 V2:2010-2026 RAD:2010-2026 ET:2022-2026
+270021;;;La Copa;-27.34556;-70.62194;188;INIA;01-09-2017;A;Climatológica;Valle;Atacama;N;N;Estaciones automáticas;1;T:2017-2026 HR:2017-2026 P:2017-2026 PP:2017-2026 V2:2017-2025 RAD:2017-2026 TSUELO:2017-2026 ET:2020-2025
+270022;;;Copiapo, Cerro Antenas;-27.36278;-70.28305;946;DMC;09-10-2025;A;Climatológica;Secano Interior;Atacama;N;N;Alfonso Iturrieta;1;T:2026-2026 HR:2026-2026 P:2026-2026 PP:2026-2026 V10:2026-2026 RAD:2026-2026 ET:2026-2026 RS:2026-2026
+280001;;;Puerto Huasco Subcomisaría;-28.4625;-71.225;25;DMC;01-01-1945;C;TermoPluviométrica;Litoral;Atacama;N;N;Carabineros de Chile;0;T:1965-1999 PP:1965-2010
+280002;;;Freirina tenencia;-28.50861;-71.07833;102;DMC;01-09-1935;C;Pluviométrica;Secano Costero;Atacama;N;N;Carabineros de Chile;0;PP:1959-1987
+280003;85486;SCLL;Vallenar, Ad.;-28.59333;-70.75694;535;DMC;01-01-1915;C;Pluviométrica;Valle;Atacama;N;N;DGAC;0;T:1952-2003 HR:1952-2003 P:1952-2003 PP:1952-2004 V10:1952-2003 SOL:1981-1986 UV:2019-2026 NUB:1952-2004
+280004;;;El Tránsito escuela;-28.87667;-70.28055;1108;DMC;01-09-1935;C;Pluviométrica;PreCordillera;Atacama;N;N;Mirta Gahona Gallardo;0;PP:1961-2000
+280005;;;San Félix fundo;-28.93833;-70.45861;1183;DMC;01-11-1940;C;Pluviométrica;Valle;Atacama;N;N;Leyla Apes Monardez;0;PP:1961-2007
+280006;;;Conay retén;-28.97417;-70.13694;1448;DMC;01-11-1961;C;TermoPluviométrica;PreCordillera;Atacama;N;N;Carabineros de Chile;0;T:1969-1981 PP:1969-1981 NIEVE:1972-1972
+280007;;;El Parral;-28.97944;-70.19722;1265;DMC;01-06-1917;C;Pluviométrica;PreCordillera;Atacama;N;N;Verónica Gahona Aróstica;0;PP:1959-2017
+280008;;;San felix retén;-28.93361;-70.46167;1145;DMC;01-01-1975;C;Pluviométrica;Valle;Atacama;N;N;Carabineros de Chile;0;PP:1975-1991
+280009;;;El Pino;-28.46833;-71.16194;37;DMC;01-01-1991;C;Pluviométrica;Litoral;Atacama;N;N;Cesar Villalobos Carmona;0;PP:1991-2000
+280010;85484;;Freirina Nicolasa;-28.51694;-71.01;156;DMC;02-11-2016;A;Climatológica;Valle;Atacama;N;N;Estación Automática (Red Básica);1;T:2017-2026 HR:2017-2026 P:2017-2026 PP:2017-2026 V10:2016-2026 RAD:2016-2024 ET:2017-2024
+280011;;;Río Copiapó en Pastillo;-28.00361;-69.97722;1155;DGA;01-04-2013;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+280012;;;Río Pulido en Vertedero;-28.08889;-69.94278;1322;DGA;01-03-2013;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+280013;;;La Compañía (Vallenar);-28.58111;-70.79833;469;DGA;01-02-1993;A;Climatológica;Valle;Atacama;N;N;Est. Automática;0;
+280014;;;Portezuelo el Gaucho;-28.62305;-70.045;0;DGA;01-04-2003;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+280015;;;Santa Juana;-28.67083;-70.65417;554;DGA;01-08-1961;A;Climatológica;Valle;Atacama;N;N;Est. Automática;0;
+280016;;;Río Huasco en Algodones;-28.73111;-70.50639;744;DGA;01-10-2003;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática.;0;
+280017;;;El Tránsito;-28.87361;-70.28194;1108;DGA;01-01-1993;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;
+280018;;;San Felix;-28.93083;-70.46389;1133;DGA;01-07-1969;A;Climatológica;Valle;Atacama;N;N;Est. Automática;0;
+280019;;;Río Conay en las Lozas;-28.94861;-70.10333;1570;DGA;01-12-2015;A;Climatológica;Valle;Atacama;N;N;Est. Automática;0;
+280020;;;Río Conay en Albaricoque;-28.95305;-70.11667;1511;DGA;01-01-1999;A;Climatológica;Cordillera;Atacama;N;N;Est. Automática;0;
+280021;85483;;CE Huasco;-28.58111;-70.79833;470;INIA;01-02-2011;A;Climatológica;Valle;Atacama;N;N;Est. Automática;1;T:2011-2026 HR:2011-2026 P:2011-2026 PP:2011-2026 V2:2011-2025 RAD:2011-2026 ET:2019-2025
+280022;;;Freirina Vallenar;-28.52639;-70.94306;230;FDF;10-10-2019;A;Climatológica;Litoral;Atacama;N;N;Estacion Automática (FDF);0;T:2009-2026 HR:2009-2026 P:2009-2026 PP:2009-2026 V2:2009-2026 RAD:2009-2026 ET:2020-2025
+280023;;;Alto del Carmen;-28.76805;-70.44917;822;FDF;10-10-2019;A;Climatológica;Valle;Atacama;N;N;Estacion Automática (FDF);1;T:2009-2026 HR:2009-2026 P:2009-2026 PP:2009-2026 V2:2009-2026 RAD:2009-2026 ET:2020-2026 RS:2024-2026
+280024;;;Freirina;-28.50667;-71.10361;100;FDF;10-10-2019;A;Climatológica;Valle;Atacama;N;N;Estación Automátca (FDF);1;T:2017-2026 HR:2017-2026 P:2017-2026 PP:2017-2026 V2:2017-2026 RAD:2017-2026 ET:2020-2026
+280025;;;Tierra Amarilla, Iglesia Colorada-Quebrada Seca;-28.14889;-69.89194;1516;FDF;10-10-2019;A;Climatológica;Valle;Atacama;N;N;Estacion Automática (FDF);1;T:2017-2026 HR:2017-2026 P:2020-2026 PP:2017-2026 V2:2017-2026 RAD:2017-2026 ET:2020-2026 RS:2024-2026
+280026;;;Vallenar Huasco;-28.34528;-70.47528;574;FDF;02-05-2023;C;Climatológica;Valle;Atacama;N;N;Fundación para el Desarrollo Frutícola;0;T:2026-2026 HR:2026-2026 P:2026-2026 PP:2026-2026 V2:2026-2026 RAD:2026-2026
+280028;;;Alto del Carmen, Los Sauces;-28.77778;-70.47055;854;DMC;29-11-2025;A;Climatológica;Valle;Atacama;N;N;Rodrigo Saavedra (SECPLAT);1;T:2026-2026 HR:2026-2026 P:2026-2026 PP:2026-2026 V10:2026-2026 RAD:2026-2026 ET:2026-2026 RS:2026-2026
+280029;;;Alto del Carmen;-28.76194;-70.48694;820;INIA;04-08-2026;A;Climatológica;Valle;Atacama;N;N;INIA;0;
+280030;;;El Tránsito;-28.87972;-70.27861;1128;INIA;05-08-2026;A;Climatológica;Valle;Atacama;N;N;INIA;0;
+280902;;;Vallenar Campex;-28.57583;-70.75722;393;DMC;01-01-1970;C;Climatológica;Valle;Atacama;N;N;S/O;0;PP:1970-1975
+280903;;;Vallenar DGA;-28.58583;-70.73861;425;DGA;01-01-1972;A;Climatológica;Valle;Atacama;N;N;Est. Automática.;0;
+290009;;;Río Carmen en el Corral;-29.11305;-70.41639;1681;DGA;01-12-2015;A;Climatológica;PreCordillera;Atacama;N;N;Est. Automática;0;

@@ -1,0 +1,277 @@
+S|157|Alto Hospicio|Alto Hospicio|Ministerio del Medio Ambiente|Algoritmos y Mediciones Ambien|385118|7755989|2015-12-17|en línea
+P|aq|MP2.5|||2016-02-09|2026-10-28|2004-12-09|ATENUACION BETA- MET ONE 102
+P|met|RadGlobal|horario|3 m|2016-02-16|2026-10-27||SENSOR - MET ONE 096-1
+P|met|HR|horario|3 m|2004-12-09|2026-10-27||SENSOR - MET ONE 83E
+P|met|T|horario|3 m|2016-02-16|2017-07-21||SENSOR - MET ONE 83E
+P|met|T|horario|10 m|2004-12-09|2026-10-27||SENSOR - MET ONE 83E
+P|met|WDIR|horario|10 m|2004-12-09|2026-10-27||SENSOR - MET ONE 020C
+P|met|WSPD|horario|10 m|2004-12-09|2026-10-27||SENSOR - MET ONE 010C
+S|259|Antofagasta|Antofagasta|Ministerio del Medio Ambiente|Algoritmos y Mediciones Ambien|358874|7387875|2013-06-01|en línea
+P|aq|SO2|||2018-06-01|2026-10-28|2018-05-31|FLUORESCENCIA PULSANTE - THE
+P|aq|MP10|||2013-06-01|2026-10-28|2013-06-01|ATENUACION BETA- MET ONE 102
+P|aq|MP2.5|||2013-06-01|2026-10-28|2013-04-27|ATENUACION BETA- MET ONE 102
+S|154|Oncológico|Antofagasta|Convenio AIA-CONAMA-SEREMI de Salud|Serpram S.A|357923|7383182|2005-08-23|carga manual
+P|aq|Cu|||2006-01-02|2006-12-30||No informado
+P|aq|Pb|||2006-01-02|2007-09-28||No informado
+P|aq|As|||2006-01-02|2006-12-30||No informado
+P|aq|MP10|||2006-01-02|2009-12-30||No informado
+P|aq|MP10disc|||2013-01-01|2026-07-28||Método gravimétrico de muest
+S|70|Playa Blanca|Antofagasta|Convenio AIA-CONAMA-SEREMI de Salud|Serpram S.A|356498|7381134|2007-09-01|carga manual
+P|aq|MP10|||2007-09-01|2009-12-30||No informado
+P|met|WDIR|horario|10 m|2009-01-01|2009-12-31||No informado
+P|met|WSPD|horario|10 m|2009-01-01|2009-12-31||No informado
+S|33|Rendic|Antofagasta|Convenio AIA-CONAMA-SEREMI de Salud|Serpram S.A|359138|7387995|2005-07-01|carga manual
+P|aq|Cu|||2006-01-02|2006-12-30||No informado
+P|aq|Pb|||2006-01-02|2007-06-30||No informado
+P|aq|As|||2006-01-02|2006-12-30||No informado
+P|aq|MP10|||2006-01-02|2009-12-30||No informado
+P|aq|MP10disc|||2013-01-01|2025-07-30||No informado
+P|met|WDIR|horario|10 m|2009-01-01|2009-12-31||No informado
+P|met|WSPD|horario|10 m|2009-01-01|2009-12-31||No informado
+S|46|Sur|Antofagasta|Complejo Metalúrgico Altonorte, Xstrata Coppe|Serpram S.A|366690|7363604|1998-01-01|carga manual
+P|aq|SO2|||2000-01-01|2008-12-31|2008-02-23|No informado
+P|aq|As|||2009-01-01|2009-12-30||No informado
+P|aq|MP10|||2000-01-01|2009-12-30||No informado
+S|234|Chiu Chiu|Calama|Codelco Distrito Norte|CIMM Tecnologías y Servicios S|535953|7529230|2008-04-10|en línea
+P|aq|SO2|||2008-04-29|2019-03-04|2008-04-28|Continuo Absorción luz ultra
+P|aq|As|||2009-01-01|2009-12-30||AAS
+P|aq|MP10|||2008-05-03|2009-12-30||Gravimetría (Otros)
+P|met|RadGlobal|horario|3 m|2008-12-31|2019-03-05||Piranómetro
+P|met|P|horario|2 m|2004-01-31|2008-12-31||Material piezoeléctrico
+P|met|P|horario|3 m|2008-12-31|2019-03-05||Material piezoeléctrico
+P|met|HR|horario|2 m|2004-02-21|2019-03-05||Termistor
+P|met|T|horario|2 m|2004-02-21|2019-03-05||Resistencia RTD
+P|met|WDIR|horario|10 m|2004-01-31|2019-03-05||Veleta
+P|met|WSPD|horario|10 m|2004-01-31|2019-03-05||Anemómetro con tres copas ve
+S|207|Club Deportivo 23 de Marzo|Calama|Codelco Distrito Norte|SGS Chile Ltda.|506399|7516241|2012-10-12|en línea
+P|aq|SO2|||2018-11-14|2026-10-28|2018-10-20|Continuo Absorción luz ultra
+P|aq|MP10|||2012-12-01|2026-10-28|2012-10-25|Gravimétrica continuo y disc
+P|aq|MP2.5|||2012-10-19|2026-10-28|2012-10-18|Gravimétrica continua y disc
+P|met|HR|horario|2 m|2012-10-18|2026-10-28||Termistor
+P|met|T|horario|2 m|2012-10-18|2026-10-20||Resistencia RTD
+P|met|T|horario|10 m|2012-10-30|2026-10-20||Resistencia RTD
+P|met|WDIR|horario|10 m|2012-10-18|2026-10-28||Veleta
+P|met|WSPD|horario|10 m|2012-10-18|2026-10-28||Anemómetro con tres copas ve
+S|222|Colegio Pedro Vergara Keller|Calama|Codelco Distrito Norte|SGS Chile Ltda.|506893|7518227|2012-10-12|en línea
+P|aq|MP10|||2012-12-01|2026-10-28|2012-11-06|Gravimétrica continuo y disc
+P|aq|MP2.5|||2013-01-01|2026-10-28|2012-12-02|Gravimétrica continua y disc
+P|met|HR|horario|2 m|2012-11-30|2026-10-28||Termistor
+P|met|T|horario|2 m|2012-11-30|2026-10-20||Resistencia RTD
+P|met|T|horario|10 m|2012-11-30|2026-10-20||Resistencia RTD
+P|met|WDIR|horario|10 m|2012-11-30|2026-10-28||Veleta
+P|met|WSPD|horario|10 m|2012-11-30|2026-10-28||Anemómetro con tres copas ve
+S|275|Estación Centro|Calama|Codelco Distrito Norte|SGS Chile Ltda.|507389|7516053|2013-01-01|en línea
+P|aq|SO2|||2012-10-19|2025-12-31|2012-10-19|Continuo Absorción luz ultra
+P|aq|NO|||2012-10-23|2025-12-31|2012-10-18|Continuo Absorción luz ultra
+P|aq|NO2|||2012-11-07|2025-12-31|2012-11-06|Quimiluminiscencia
+P|aq|CO|||2012-10-25|2025-12-31|2012-10-18|Continuo Absorción luz infra
+P|aq|O3|||2012-11-07|2025-12-31|2012-10-18|Fotometria Ultravioleta
+P|aq|NOX|||2012-11-05|2025-12-31|2012-10-18|Quimiluminiscencia
+P|aq|MP10|||2012-11-07|2025-12-31|2012-10-19|Gravimétrica continuo y disc
+P|aq|MP2.5|||2012-10-19|2025-12-31|2012-10-18|Gravimétrica continua y disc
+P|met|HR|horario|2 m|2012-10-19|2020-03-04||Termistor
+P|met|HR|horario|4 m|2012-10-18|2026-01-01||Termistor
+P|met|T|horario|10 m|2012-10-19|2026-01-01||Resistencia RTD
+P|met|T|horario|2 m|2012-10-19|2020-03-04||Resistencia RTD
+P|met|T|horario|4 m|2013-01-05|2026-01-01||Resistencia RTD
+P|met|WDIR|horario|10 m|2012-10-19|2026-01-01||Veleta
+P|met|WDIR|horario|4 m|2020-08-03|2026-01-01||Veleta
+P|met|WSPD|horario|4 m|2020-08-03|2026-01-01||Anemómetro con tres copas ve
+P|met|WSPD|horario|10 m|2012-10-19|2026-01-01||Anemómetro con tres copas ve
+S|124|Hospital del Cobre|Calama|Codelco Distrito Norte|SGS Chile Ltda.|509242|7516916|2002-01-01|en línea
+P|aq|SO2|||2002-01-24|2026-10-27|2002-04-30|Continuo Absorción luz ultra
+P|aq|As|||2009-01-01|2009-12-30||EPA 3050 Std. Methods
+P|aq|MP10|||2002-01-05|2026-10-28|2016-01-19|Gravimetría (Otros)
+P|aq|MP2.5|||2020-01-01|2026-10-27|2015-01-06|Gravimetria (Otros)
+P|met|RadGlobal|horario|3 m|2002-12-31|2026-10-28||Piranómetro
+P|met|P|horario|3 m|2004-12-18|2026-10-28||Material piezoeléctrico
+P|met|P|horario|2 m|2002-12-31|2008-12-31||Material piezoeléctrico
+P|met|PP|horario|2 m|2002-12-31|2020-11-04||Balancín con switch magnétic
+P|met|PP|horario|S/I|2016-08-19|2026-10-28||Balancín con switch magnétic
+P|met|HR|horario|S/I|2015-06-01|2026-10-28||Termistor
+P|met|HR|horario|2 m|2011-12-27|2020-11-04||Termistor
+P|met|T|horario|10 m|2004-12-18|2026-10-28||Resistencia RTD
+P|met|T|horario|2 m|2002-12-31|2026-10-28||Resistencia RTD
+P|met|WDIR|horario|10 m|2002-12-31|2026-10-28||Veleta
+P|met|WSPD|horario|10 m|2003-01-08|2026-10-28||Anemómetro con tres copas ve
+S|282|Nueva ChiuChiu|Calama|Codelco Distrito Norte|SGS Chile Ltda.|536175|7529174|2019-04-01|en línea
+P|aq|SO2|||2019-08-01|2026-10-28|2019-08-01|Continuo Absorción luz ultra
+P|aq|MP10|||2019-08-17|2026-10-28|2019-08-16|Gravimetría (Otros)
+P|met|RadGlobal|horario|S/I|2019-08-01|2026-10-28||Piranómetro
+P|met|P|horario|S/I|2019-08-01|2026-10-28||Material piezoeléctrico
+P|met|PP|horario|S/I|2019-08-01|2026-10-28||Balancín con switch magnétic
+P|met|HR|horario|2 m|2019-08-01|2026-10-28||Termistor
+P|met|T|horario|2 m|2019-08-01|2026-10-28||Resistencia RTD
+P|met|WDIR|horario|10 m|2019-08-01|2026-10-28||Veleta
+P|met|WSPD|horario|10 m|2019-08-01|2026-10-28||Anemómetro con tres copas ve
+S|134|Oasis|Calama|Codelco Distrito Norte|SGS Chile Ltda.|508165|7515782|2012-02-01|en línea
+P|aq|SO2|||2012-02-01|2026-10-28|2012-02-01|Continuo Absorción luz ultra
+P|met|RadGlobal|horario|S/I|2020-08-03|2026-10-28||Piranómetro
+P|met|HR|horario|2 m|2020-08-03|2026-10-28||Termistor
+P|met|T|horario|2 m|2020-08-03|2026-10-28||Resistencia RTD
+P|met|WDIR|horario|10 m|2020-08-03|2026-10-28||Veleta
+P|met|WSPD|horario|10 m|2020-08-03|2026-10-28||Anemómetro con tres copas ve
+S|12|Servicio Médico Legal|Calama|Codelco Distrito Norte|CIMM Tecnologías y Servicios S|505383|7516195|2008-04-11|carga manual
+P|aq|SO2|||2008-04-11|2020-11-03|2008-04-09|Continuo Absorción luz ultra
+P|aq|As|||2009-01-01|2009-12-30||AAS
+P|aq|MP10|||2008-04-12|2009-12-30||Gravimetría (Otros)
+S|108|Aukahuasi|Calama|Codelco Distrito Norte|CIMM Tecnologías y Servicios S|506481|7531673|1994-05-02|carga manual
+P|aq|SO2|||2000-01-01|2008-12-31|2007-12-31|No informado
+P|aq|As|||2009-01-01|2009-12-30||No informado
+P|aq|MP10|||2000-01-02|2009-12-30||No informado
+S|69|San José|Calama|Codelco Distrito Norte|CIMM Tecnologías y Servicios S|507229|7532289|1994-05-02|carga manual
+P|aq|SO2|||2000-01-01|2008-05-02|2002-01-01|No informado
+P|aq|CO|||2007-01-01|2007-12-31||No informado
+P|aq|MP10|||2000-01-02|2008-04-30||No informado
+P|met|P|horario|2 m|2002-12-31|2008-12-31||No informado
+P|met|PP|horario|2 m|2002-12-31|2008-12-31||No informado
+P|met|T|horario|2 m|2002-12-31|2008-12-31||No informado
+P|met|WDIR|horario|10 m|2002-12-31|2008-12-31||No informado
+P|met|WSPD|horario|10 m|2002-12-31|2008-12-31||No informado
+S|3|Villa Caspana|Calama|Codelco Distrito Norte|CIMM Tecnologías y Servicios S|507410|7514595|1994-05-02|carga manual
+P|aq|SO2|||2000-06-01|2008-04-07|2007-12-31|No informado
+P|aq|MP10|||2000-01-02|2008-04-06||No informado
+S|68|Hospital|María Elena|SQM Industrial S.A.|SQM Industrial S.A.|509243|7516913|1997-04-02|carga manual
+P|aq|MP10|||2000-01-01|2009-12-31|2004-06-30|No informado
+S|2|Iglesia|María Elena|SQM Industrial S.A.|SQM Industrial S.A.|431963|7528848|1997-04-02|carga manual
+P|aq|MP10|||2000-01-01|2009-12-31||No informado
+S|1|Jardín Infantil Integra|Mejillones|ENAEX S.A. Planta Prillex América|Algoritmos y Mediciones Ambien|352064|7444407|2000-01-01|en línea
+P|aq|NO|||2000-01-01|2026-10-27|2007-12-31|No informado
+P|aq|NO2|||2000-01-01|2026-10-28|2007-12-31|No informado
+P|aq|NOX|||2000-01-01|2026-10-27|2007-12-31|No informado
+P|aq|MP10|||2002-04-12|2009-10-16||No informado
+P|met|RadGlobal|horario|3 m|2019-09-29|2020-05-27||No informado
+P|met|HR|horario|3 m|2019-09-29|2026-07-10||No informado
+P|met|T|horario|10 m|2019-09-29|2026-07-10||No informado
+P|met|WDIR|horario|10 m|2019-09-29|2026-07-16||No informado
+P|met|WSPD|horario|10 m|2019-09-29|2026-07-10||No informado
+S|279|Juan Jose Latorre|Mejillones|ENAEX S.A. Planta Prillex América|Algoritmos y Mediciones Ambien|352346|7444100|2010-01-01|en línea
+P|aq|NO|||2019-09-30|2026-10-27|2019-09-29|No informado
+P|aq|NO2|||2019-09-30|2026-07-09|2019-09-29|No informado
+P|aq|NOX|||2019-09-30|2026-10-27|2019-09-29|No informado
+P|met|RadGlobal|horario|3 m|2019-09-29|2020-05-27||No informado
+P|met|HR|horario|3 m|2019-09-29|2026-07-10||No informado
+P|met|T|horario|10 m|2019-09-29|2026-07-10||No informado
+P|met|WDIR|horario|10 m|2019-09-29|2026-08-09||No informado
+P|met|WSPD|horario|10 m|2019-09-29|2026-07-10||No informado
+S|4|Compañía de Bomberos|Mejillones|Gas Atacama Generación Limitada|CESMEC S.A|351468|7444654|1999-06-01|carga manual
+P|aq|NO|||2000-01-01|2009-12-31|2007-12-31|No informado
+P|aq|NO2|||2000-01-01|2009-12-31|2002-12-31|No informado
+P|aq|CO|||2000-01-01|2009-12-31|2007-12-31|No informado
+P|aq|O3|||2000-01-01|2009-11-30|2004-04-12|No informado
+P|aq|NOX|||2000-01-01|2009-12-31|2007-12-31|No informado
+P|aq|MP10|||2000-01-01|2009-12-30||No informado
+S|66|Ferrocarriles|Mejillones|EDELNOR S.A.|SGS Chile Ltda.|350205|7444908|1997-01-02|carga manual
+P|aq|SO2|||2000-03-01|2008-12-31|2007-12-31|No informado
+P|aq|NO2|||2000-03-01|2008-12-31|2008-02-29|No informado
+P|aq|O3|||2008-03-01|2008-12-31|2008-02-29|No informado
+P|aq|MP10|||2000-01-01|2009-12-30||No informado
+S|255|Sierra Gorda|Sierra Gorda|Sierra Gorda SCM|Servicios y Tecnología Ltda.|467298|7468596|2012-08-15|en línea
+P|aq|MP10|||2012-09-11|2026-10-26|2012-09-10|Atenuación Beta
+P|aq|MP2.5|||2012-09-11|2026-10-26||Atenuación Beta
+P|met|T|horario|18 m|2012-09-10|2026-10-27||Termocupla
+P|met|WDIR|horario|18 m|2012-09-10|2026-10-27||Veleta
+P|met|WSPD|horario|18 m|2012-09-10|2026-10-27||Anemómetro
+S|71|Paposo|Taltal|Empresa Nacional de Electricidad S.A. Central|Serpram S.A|352352|7233451|2000-02-20|carga manual
+P|aq|SO2|||2007-06-14|2009-12-31|2007-12-31|No informado
+P|aq|NO|||2000-04-01|2009-12-31|2007-10-01|No informado
+P|aq|NO2|||2000-04-01|2009-12-31|2007-10-01|No informado
+P|aq|CO|||2007-10-01|2009-12-31|2007-10-01|No informado
+P|aq|O3|||2007-10-01|2009-12-31|2007-10-01|No informado
+P|aq|NOX|||2000-04-01|2009-12-31|2007-10-01|No informado
+P|aq|MP10|||2000-02-29|2009-12-24||No informado
+S|72|Punto de Máximo Impacto|Taltal|Empresa Nacional de Electricidad S.A. Central|Serpram S.A|352524|7236146|2000-02-29|carga manual
+P|aq|SO2|||2007-07-01|2009-12-31|2007-12-31|No informado
+P|aq|NO|||2000-04-01|2009-12-31|2007-12-31|No informado
+P|aq|NO2|||2000-04-01|2009-12-31|2007-12-31|No informado
+P|aq|CO|||2008-01-01|2009-12-31|2007-12-31|No informado
+P|aq|O3|||2008-01-01|2009-12-31|2007-12-31|No informado
+P|aq|NOX|||2000-04-01|2009-12-31|2007-12-31|No informado
+P|aq|MP10|||2000-02-29|2009-12-24||No informado
+P|met|RadGlobal|horario|2 m|2009-04-01|2009-12-31||No informado
+P|met|P|horario|2 m|2009-04-01|2009-12-31||No informado
+P|met|PP|horario|2 m|2009-04-01|2009-12-31||No informado
+P|met|HR|horario|2 m|2009-01-01|2009-12-31||No informado
+P|met|T|horario|2 m|2009-01-01|2009-12-31||No informado
+P|met|WDIR|horario|10 m|2009-01-01|2009-12-31||No informado
+P|met|WSPD|horario|10 m|2009-01-01|2009-12-31||No informado
+S|178|Bomberos|Tocopilla|Norgener S.A|CESMEC S.A|375319|7554741|2011-10-14|en línea
+P|aq|MP2.5|||2009-03-01|2026-10-28|2009-02-28|Atenuación Beta
+S|270|Gobernación|Tocopilla|Norgener S.A|CESMEC S.A|376284|7556725|2011-10-01|en línea
+P|aq|SO2|||2004-06-01|2026-10-28|2008-01-01|Fluorescencia ultravioleta
+P|aq|MP10|||2004-06-01|2026-10-28|2009-01-05|Método basado en el principi
+P|met|WSPD|horario|10 m|2007-01-01|2007-11-30||No informado
+S|172|Super Site|Tocopilla|ENGIE Energia Chile S.A.|Algoritmos y Mediciones Ambien|377404|7557193|2017-12-12|en línea
+P|aq|SO2|||2019-08-03|2026-10-28|2019-07-17|Fluorescencia ultravioleta
+P|aq|NO|||2019-08-03|2026-10-27|2019-07-17|Fluorescencia Ultravioleta
+P|aq|NO2|||2019-08-03|2026-10-28|2019-07-17|Fluorescencia Ultravioleta
+P|aq|CO|||2019-08-03|2026-10-28|2019-07-17|Infrarrojo
+P|aq|O3|||2019-08-03|2026-10-28|2019-07-17|Continuo Absorción luz ultra
+P|aq|NOX|||2019-08-03|2026-10-27|2019-07-17|Quimiluminiscencia
+P|aq|MP10|||2019-08-03|2026-10-28|2019-07-17|Atenuación Beta
+P|aq|MP2.5|||2019-08-03|2026-10-28|2019-07-17|Atenuación Beta
+P|met|RadGlobal|horario|3 m|2019-08-12|2026-10-28||Piranómetro
+P|met|P|horario|2 m|2019-08-12|2026-10-28||Material piezoeléctrico
+P|met|HR|horario|2 m|2019-08-12|2026-10-28||Capacitivo
+P|met|T|horario|2 m|2019-08-12|2026-10-28||Resistencia RTD
+P|met|WDIR|horario|10 m|2019-08-13|2026-10-28||Veleta
+P|met|WSPD|horario|10 m|2019-08-12|2026-10-28||Anemómetro
+S|169|Tres Marias|Tocopilla|Norgener S.A|CESMEC S.A|377485|7560029|2015-11-05|en línea
+P|aq|MP10|||2011-07-21|2026-10-28|2011-02-19|Espectrometría Laser
+P|aq|MP2.5|||2011-07-21|2026-10-28|2011-02-19|Espectrometría Láser
+P|met|RadGlobal|horario|4 m|2011-07-20|2014-10-28||No informado
+P|met|P|horario|4 m|2011-07-20|2014-10-28||No informado
+P|met|HR|horario|4 m|2011-07-20|2014-10-28||No informado
+P|met|T|horario|4 m|2011-07-20|2026-10-28||No informado
+P|met|WDIR|horario|10 m|2011-07-20|2026-10-28||SENSOR YOUNG 157316
+P|met|WSPD|horario|10 m|2011-07-20|2026-10-28||SENSOR YOUNG 157316
+S|274|Escuela E-10|Tocopilla|Electroandina S.A.|Mayti SpA|377352|7557219|2009-04-02|en línea
+P|aq|SO2|||2008-01-01|2019-07-16|2007-12-31|Fluorescencia ultravioleta
+P|aq|NO|||2004-03-01|2019-07-16|2007-12-31|Quimiluminiscencia
+P|aq|NO2|||2000-01-01|2019-07-16|2007-12-31|Quimiluminiscencia
+P|aq|CO|||2011-12-06|2019-07-16|2011-12-05|Fotometría infrarroja no dis
+P|aq|O3|||2011-12-15|2019-07-16|2011-12-15|Fotometría de absorción ultr
+P|aq|NOX|||2004-03-01|2019-07-16|2007-12-31|Quimiluminiscencia
+P|aq|MP10|||2000-01-03|2019-07-16|2011-12-15|Método basado en el principi
+P|aq|MP2.5|||2011-12-06|2019-07-16|2011-12-05|Atenuación Beta
+P|met|RadGlobal|horario|3 m|2011-12-15|2019-07-17||Detector Fotovoltaico
+P|met|P|horario|3 m|2011-12-15|2019-07-17||Sensor Multivariable
+P|met|HR|horario|3 m|2011-12-15|2019-07-17||Sensor Multivariable
+P|met|T|horario|10 m|2011-12-15|2019-07-17||Sensor Multivariable
+P|met|WDIR|horario|10 m|2005-12-31|2019-07-17||Sensor Multivariable
+P|met|WSPD|horario|10 m|2005-12-31|2019-07-17||Sensor Multivariable
+S|128|Centro|Tocopilla|Electroandina S.A.|Algoritmos y Mediciones Ambien|376516|7556334|2004-03-01|carga manual
+P|aq|SO2|||2004-03-01|2007-04-04||No informado
+P|met|WDIR|horario|10 m|2007-12-31|2008-12-31||No informado
+P|met|WSPD|horario|10 m|2007-12-31|2008-12-31||No informado
+S|39|Escuela E-12|Tocopilla|Norgener S.A|CIMM Tecnologías y Servicios S|376731|7556849|2004-06-12|carga manual
+P|aq|SO2|||2004-06-12|2006-02-13||No informado
+P|aq|MP10|||2004-06-13|2006-02-13||No informado
+S|130|Escuela Gabriela Mistral|Tocopilla|Norgener S.A|CIMM Tecnologías y Servicios S|376518|7556323|2004-06-12|carga manual
+P|aq|SO2|||2004-06-12|2006-02-13||No informado
+S|51|Sur|Tocopilla|Electroandina S.A.|Algoritmos y Mediciones Ambien|374794|7554836|2004-03-01|carga manual
+P|aq|SO2|||2004-03-01|2007-04-04||No informado
+P|aq|MP10|||2004-03-02|2007-04-03||No informado
+S|305|Chañaral|Chañaral|Ministerio del Medio Ambiente|Algoritmos y Mediciones Ambien|339089|7086130|2024-03-07|en línea
+P|aq|MP10|||2024-04-01|2026-10-28|2024-03-31|Método basado en el principi
+S|176|Copiapo Sivica|Copiapó|Ministerio del Medio Ambiente|Algoritmos y Mediciones Ambien|369133|6971887|2013-10-18|en línea
+P|aq|SO2|||2021-07-20|2026-10-28||FLUORESCENCIA PULSANTE - THE
+P|aq|MP10|||2013-10-18|2026-10-28||ATENUACION BETA - THERMO FH6
+P|met|HR|horario|10 m|2025-12-31|2026-10-27||Sensor capacitivo de humedad
+P|met|T|horario|10 m|2025-12-31|2026-10-27||Termo-resistencia
+P|met|WDIR|horario|10 m|2025-12-31|2026-10-27||Mecano-electrónico
+P|met|WSPD|horario|10 m|2025-12-31|2026-10-27||Mecano-electromagnético
+S|223|Copiapó|Copiapó|ENAMI Fundición Hernán Videla Lira|Algoritmos y Mediciones Ambien|368470|6972981|1992-10-01|en línea
+P|aq|SO2|||1993-01-01|2025-07-08|1992-12-31|Fluorescencia ultravioleta
+P|aq|MP10|||1999-02-01|2009-03-31||Gravimetría (Otros)
+P|met|WDIR|horario|10 m|2009-01-01|2009-12-31||No informado
+P|met|WSPD|horario|10 m|2009-01-01|2009-12-31||No informado
+S|248|Los Volcanes|Copiapó|ENAMI Fundición Hernán Videla Lira|Algoritmos y Mediciones Ambien|371047|6971867|1992-10-01|en línea
+P|aq|SO2|||1995-07-01|2025-07-08|1995-06-30|Fluorescencia ultravioleta
+P|aq|MP10|||2003-01-01|2003-12-30|2003-01-01|No informado
+S|45|CAP|Diego de Almagro|Codelco Divsión El Salvador|NO INFORMADO|449439|7077320|2005-03-15|carga manual
+P|aq|SO2|||2002-09-01|2010-11-30|2008-12-31|No informado
+P|aq|MP10|||2002-09-04|2010-11-28||No informado
+S|114|Doña Ines|Diego de Almagro|Codelco Divsión El Salvador|NO INFORMADO|452032|7076284|1999-01-01|carga manual
+P|aq|SO2|||2001-06-01|2010-11-30|2009-12-31|No informado
+P|aq|MP10|||1999-01-14|2010-11-28||No informado

@@ -1,0 +1,241 @@
+<title>Estaciones Iquique–Caldera</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: cartographic workbench — header strip, map left (tall, north-south country), filters + station card right, filtered table below */
+:root{
+  --bg:#f3f5f7; --panel:#ffffff; --ink:#18232e; --muted:#5d6b78; --line:#d9e0e6;
+  --land:#e6e2d8; --land-other:#eef0ee; --sea:#dfe9f0; --border:#b9b2a3; --accent:#0e5a8a;
+  --op:#1f8a4c; --warn:#b7791f; --off:#8a94a0;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11171d; --panel:#18212a; --ink:#e4eaf0; --muted:#97a5b2; --line:#2a3642;
+  --land:#2c2a25; --land-other:#1d2329; --sea:#0f1a23; --border:#5b5548; --accent:#5fb2e6;
+  --op:#4cc27e; --warn:#e0a84a; --off:#7b8794; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11171d; --panel:#18212a; --ink:#e4eaf0; --muted:#97a5b2; --line:#2a3642;
+  --land:#2c2a25; --land-other:#1d2329; --sea:#0f1a23; --border:#5b5548; --accent:#5fb2e6;
+  --op:#4cc27e; --warn:#e0a84a; --off:#7b8794; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1360px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;border-bottom:2px solid var(--ink);padding-bottom:12px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,3.4vw,38px);line-height:1.05;margin:0;letter-spacing:.2px;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;max-width:68ch}
+.counts{display:flex;gap:22px;flex-wrap:wrap;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.counts div{display:flex;flex-direction:column}
+.counts b{font-size:24px;font-weight:500}
+.counts span{font-family:var(--body);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.main{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:1fr}}
+.mapbox{background:var(--sea);border:1px solid var(--line);position:relative;min-width:0}
+#map{display:block;width:100%;height:auto;touch-action:none;cursor:grab}
+.maptools{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:6px}
+.maptools button{width:32px;height:32px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:600 16px var(--body);cursor:pointer}
+.maphint{position:absolute;left:10px;bottom:8px;font-size:11px;color:var(--muted);background:color-mix(in srgb,var(--panel) 80%,transparent);padding:2px 6px}
+.side{display:flex;flex-direction:column;gap:14px;min-width:0}
+.box{background:var(--panel);border:1px solid var(--line);padding:14px 16px}
+.lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:transparent;color:var(--ink);
+  padding:4px 9px;font:13px var(--body);cursor:pointer;border-radius:999px}
+.chip[aria-pressed="false"]{opacity:.42}
+.chip:focus-visible,.maptools button:focus-visible,input:focus-visible,select:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.chip small{font-family:var(--mono);color:var(--muted)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>*{flex:1 1 160px;min-width:0}
+input[type=search],select{width:100%;padding:7px 9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:14px var(--body)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+#card h2{font-family:var(--display);font-size:24px;margin:0 0 2px;line-height:1.1;text-wrap:balance}
+#card .meta{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:10px}
+dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:6px 12px;margin:0;font-size:14px}
+dt{color:var(--muted);font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding-top:2px}
+dd{margin:0;overflow-wrap:anywhere}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid currentColor}
+.s-op{color:var(--op)}.s-prob,.s-new,.s-rec{color:var(--warn)}.s-off,.s-unk{color:var(--off)}
+a{color:var(--accent)}
+.empty{color:var(--muted);margin:0}
+.ptab{margin-top:12px;overflow-x:auto;max-height:300px;overflow-y:auto;border-top:1px solid var(--line)}
+table.pt{min-width:0;font-size:12px}
+table.pt th{position:sticky;top:0;font-size:10px;padding:6px 6px;border-bottom:1px solid var(--line);cursor:default}
+table.pt td{padding:4px 6px}
+b.aq{font-family:var(--mono);font-size:10px;color:#c4393b;border:1px solid currentColor;padding:0 3px;border-radius:3px}
+.tablewrap{background:var(--panel);border:1px solid var(--line);overflow:auto;max-height:520px}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:820px}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
+  padding:9px 10px;border-bottom:2px solid var(--ink);cursor:pointer;white-space:nowrap}
+td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody tr{cursor:pointer}
+tbody tr:hover,tbody tr.sel{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.tabhead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.tabhead h3{font-family:var(--display);font-size:20px;margin:0}
+.foot{font-size:12px;color:var(--muted);max-width:90ch}
+svg text{font-family:var(--display);fill:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Estaciones meteorológicas y de calidad del aire, Iquique a Caldera</h1>
+      <p class="sub">Estaciones con datos desde 2015, entre 19.95°S y 27.30°S. Metadatos al 28 de octubre de 2026. Punto lleno: operativa · semilleno: probablemente operativa · anillo: no operativa o sin información. Cuadrado: mide calidad del aire.</p>
+    </div>
+    <div class="counts" id="counts"></div>
+  </header>
+
+  <div class="main">
+    <div class="mapbox">
+      <svg id="map" viewBox="0 0 640 1080" role="img" aria-label="Mapa de estaciones del norte de Chile"></svg>
+      <div class="maptools"><button id="zin" aria-label="Acercar">+</button><button id="zout" aria-label="Alejar">−</button><button id="zreset" aria-label="Restablecer vista">⟲</button></div>
+      <div class="maphint">Arrastra para mover · rueda o +/− para acercar · clic en un punto para ver la ficha</div>
+    </div>
+
+    <div class="side">
+      <div class="box">
+        <p class="lbl">Red</p>
+        <div class="chips" id="redchips"></div>
+      </div>
+      <div class="box">
+        <div class="row">
+          <div><p class="lbl">Operativa</p>
+            <select id="fstate"><option value="">Todas</option><option value="op">Sí</option><option value="prob">Probable</option><option value="off">No</option><option value="unk">Sin información</option></select></div>
+          <div><p class="lbl">Tipo</p>
+            <select id="ftipo"><option value="">Todos</option><option value="Meteorológica">Solo meteorológica</option><option value="Calidad">Con calidad del aire</option><option value="Perfiles">Perfiles verticales</option></select></div>
+        </div>
+        <div class="row" style="margin-top:10px">
+          <div><p class="lbl">Resolución más fina</p>
+            <select id="fres"><option value="">Cualquiera</option><option value="1 minuto">1 minuto</option><option value="10 minutos">10 minutos</option><option value="Horaria">Horaria</option><option value="Diaria">Diaria</option></select></div>
+          <div><p class="lbl">Parámetro o estación</p><input type="search" id="fq" placeholder="MP2,5, SO2, viento, Calama…"></div>
+        </div>
+        <label style="display:flex;gap:8px;align-items:center;margin-top:10px;font-size:14px"><input type="checkbox" id="fcov"> Solo estaciones con datos de 2015 a 2026</label>
+        <div class="legend" style="margin-top:12px">
+          <span><i style="background:var(--muted)"></i>operativa</span>
+          <span><i style="background:color-mix(in srgb,var(--muted) 45%,transparent);border:1.5px solid var(--muted)"></i>probable</span>
+          <span><i style="border:2px solid var(--muted)"></i>no / sin info</span>
+          <span><i style="border-radius:1px;background:var(--muted)"></i>calidad del aire</span>
+        </div>
+      </div>
+      <div class="box" id="card"></div>
+    </div>
+  </div>
+
+  <div class="tabhead"><h3 id="tabtitle">Estaciones</h3><span class="foot">Ordena con clic en el encabezado. Detalle por parámetro, periodo, resolución y altura de sensor en la planilla adjunta.</span></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th data-k="id">ID</th><th data-k="n">Nombre</th><th data-k="k">Red</th><th data-k="t">Tipo</th><th data-k="res">Resolución</th><th data-k="i">Desde</th><th data-k="f">Hasta</th><th data-k="e">Operativa</th></tr></thead>
+    <tbody id="tb"></tbody></table></div>
+  <p class="foot">Fuentes: DMC–SACLIM, Agromet (INIA), SINCA–MMA, CR2 Explorador Climático y BNA (DGA), CEAZA-Met, Ministerio de Energía – campaña eólica y solar. Contornos: Natural Earth (world-atlas). El estado se infiere del último dato publicado por cada fuente; ver criterios en la hoja “Léame” de la planilla.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const ST = __STATIONS__;
+const BASE = __BASE__;
+const NETS = {
+  DMC:{n:'DMC',c:'#1f5fa8'}, INIA:{n:'INIA / Agromet',c:'#5f9e2f'}, ARM:{n:'Armada',c:'#2f8f8a'}, ESO:{n:'ESO',c:'#5361c9'},
+  SINCA:{n:'SINCA (calidad del aire)',c:'#c4393b'}, DGA:{n:'DGA',c:'#0f9aa8'}, CEAZA:{n:'CEAZA-Met',c:'#d9822b'}, MINEN:{n:'Min. Energía',c:'#8a5a9e'}
+};
+const on = {}; Object.keys(NETS).forEach(k=>on[k]=true);
+let selId=null, sortK='id', sortDir=1, k0=1;
+
+const rc=document.getElementById('redchips');
+Object.entries(NETS).forEach(([k,o])=>{
+  const n=ST.filter(s=>s.k===k).length; if(!n) return;
+  const b=document.createElement('button'); b.className='chip'; b.id='chip-'+k; b.setAttribute('aria-pressed','true');
+  b.innerHTML=`<span class="dot" style="background:${o.c}"></span>${o.n} <small>${n}</small>`;
+  b.onclick=()=>{on[k]=!on[k]; b.setAttribute('aria-pressed',on[k]); render();};
+  rc.appendChild(b);
+});
+
+const W=640,H=1080, svg=d3.select('#map');
+const proj=d3.geoMercator().fitExtent([[18,18],[W-18,H-18]],{type:'MultiPoint',coordinates:[[-71.0,-19.85],[-67.1,-27.45]]});
+const path=d3.geoPath(proj);
+const g=svg.append('g');
+g.append('rect').attr('x',-5000).attr('y',-5000).attr('width',12000).attr('height',12000).attr('fill','var(--sea)');
+g.selectAll('path.c').data(BASE.features).join('path').attr('d',path)
+  .attr('fill',d=>d.properties.name==='Chile'?'var(--land)':'var(--land-other)').attr('stroke','var(--border)').attr('stroke-width',.8).attr('vector-effect','non-scaling-stroke');
+const grid=g.append('g');
+for(let la=-20;la>=-27;la--){const y=proj([-72,la])[1];
+  grid.append('line').attr('x1',0).attr('x2',W).attr('y1',y).attr('y2',y).attr('stroke','var(--border)').attr('stroke-opacity',.35).attr('stroke-dasharray','2 4').attr('vector-effect','non-scaling-stroke');
+  grid.append('text').attr('class','lat').attr('x',6).attr('y',y-3).attr('font-size',11).text(`${-la}°S`);}
+const labels=[['Iquique',-20.22,-70.15],['Tocopilla',-22.09,-70.20],['Calama',-22.46,-68.93],['Mejillones',-23.10,-70.45],['Antofagasta',-23.65,-70.40],['Taltal',-25.40,-70.48],['Chañaral',-26.35,-70.62],['Caldera',-27.07,-70.82]];
+const lab=g.append('g');
+labels.forEach(([t,la,lo])=>{const [x,y]=proj([lo,la]);lab.append('text').attr('class','city').attr('x',x-9).attr('y',y+4).attr('text-anchor','end').attr('font-size',12).attr('font-weight',600).text(t);});
+const pts=g.append('g');
+
+function shape(d){const r=(d.id===selId?6.8:4.3)/Math.sqrt(k0);
+  if(d.t.startsWith('Calidad')){const a=r*0.9;return `M${-a},${-a}H${a}V${a}H${-a}Z`;}
+  return `M${r},0A${r},${r} 0 1,1 ${-r},0A${r},${r} 0 1,1 ${r},0Z`;}
+function sw(d){return (d.s==='op'?.6:1.5)/Math.sqrt(k0);}
+
+const zoom=d3.zoom().scaleExtent([1,18]).on('zoom',e=>{g.attr('transform',e.transform);k0=e.transform.k;
+  pts.selectAll('path.pt').attr('d',shape).attr('stroke-width',sw);
+  g.selectAll('text.city,text.lat').attr('font-size',function(){return (this.classList.contains('city')?12:11)/k0});});
+svg.call(zoom);
+document.getElementById('zin').onclick=()=>svg.transition().duration(250).call(zoom.scaleBy,1.6);
+document.getElementById('zout').onclick=()=>svg.transition().duration(250).call(zoom.scaleBy,1/1.6);
+document.getElementById('zreset').onclick=()=>svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);
+
+function filtered(){
+  const fs=document.getElementById('fstate').value, ft=document.getElementById('ftipo').value,
+        fr=document.getElementById('fres').value, fc=document.getElementById('fcov').checked, q=document.getElementById('fq').value.trim().toLowerCase();
+  return ST.filter(s=>on[s.k]
+    && (!fs || s.s===fs)
+    && (!ft || s.t.startsWith(ft))
+    && (!fr || s.res.startsWith(fr))
+    && (!fc || s.cov==='Sí')
+    && (!q || (s.n+' '+s.c+' '+s.id+' '+s.ps.map(p=>p[1]).join(' ')).toLowerCase().includes(q)));
+}
+function esc(t){return String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function fmtNum(x){return x==null?'—':x.toLocaleString('es-CL');}
+const RANK={op:3,prob:2,unk:1,off:0};
+function render(){
+  const F=filtered();
+  document.getElementById('counts').innerHTML=
+    `<div><b>${F.length}</b><span>estaciones</span></div><div><b>${F.filter(s=>s.s==='op').length}</b><span>operativas</span></div><div><b>${F.filter(s=>s.t.startsWith('Calidad')).length}</b><span>calidad del aire</span></div>`;
+  pts.selectAll('path.pt').data(F.slice().sort((a,b)=>RANK[a.s]-RANK[b.s]),d=>d.id).join('path').attr('class','pt')
+    .attr('transform',d=>{const [x,y]=proj([d.lo,d.la]);return `translate(${x},${y})`;})
+    .attr('d',shape)
+    .attr('fill',d=>d.s==='op'||d.s==='prob'?NETS[d.k].c:'var(--panel)')
+    .attr('fill-opacity',d=>d.s==='op'?.92:(d.s==='prob'?.45:.85))
+    .attr('stroke',d=>d.s==='op'?'var(--panel)':NETS[d.k].c)
+    .attr('stroke-width',sw)
+    .style('cursor','pointer')
+    .on('click',(e,d)=>select(d.id))
+    .selectAll('title').data(d=>[d]).join('title').text(d=>`${d.n} · ${NETS[d.k].n} · operativa: ${d.e}`);
+  if(selId) pts.selectAll('path.pt').filter(d=>d.id===selId).raise();
+  const T=F.slice().sort((a,b)=>{const x=a[sortK],y=b[sortK];return (x==null)-(y==null)||(x>y?1:x<y?-1:0)*sortDir;});
+  document.getElementById('tabtitle').textContent=`Estaciones (${T.length})`;
+  document.getElementById('tb').innerHTML=T.map(s=>`<tr data-id="${s.id}" tabindex="0" class="${s.id===selId?'sel':''}"><td class="num">${s.id}</td><td>${esc(s.n)}</td><td><span class="dot" style="display:inline-block;background:${NETS[s.k].c};margin-right:6px"></span>${NETS[s.k].n}</td><td>${esc(s.t)}</td><td>${esc(s.res)}</td><td class="num">${s.i??'—'}</td><td class="num">${s.f??'—'}</td><td><span class="pill s-${s.s}">${s.e}</span></td></tr>`).join('');
+}
+function select(id){
+  selId=id; const s=ST.find(x=>x.id===id); const c=document.getElementById('card');
+  const ptab=s.ps.length?`<div class="ptab"><table class="pt"><thead><tr><th>Parámetro</th><th>Altura</th><th>Resolución</th><th>Desde</th><th>Hasta</th></tr></thead><tbody>${s.ps.map(p=>`<tr><td>${p[0]==='C'?'<b class="aq">CA</b> ':''}${esc(p[1])}</td><td class="num">${esc(p[2])}</td><td>${esc(p[3])}</td><td class="num">${esc(p[4])}</td><td class="num">${esc(p[5])}</td></tr>`).join('')}</tbody></table></div>`:'';
+  c.innerHTML=`<p class="lbl" style="color:${NETS[s.k].c}">${esc(s.red)}</p><h2>${esc(s.n)}</h2>
+   <div class="meta">${s.id} · ${esc(s.c)}${s.o?' · '+esc(s.o):''}</div>
+   <dl>
+    <dt>Operativa</dt><dd><span class="pill s-${s.s}">${esc(s.e)}</span><div style="font-size:13px;color:var(--muted);margin-top:3px">${esc(s.cr)}</div></dd>
+    <dt>Ubicación</dt><dd><span style="font-family:var(--mono);font-size:13px">${s.la.toFixed(4)}, ${s.lo.toFixed(4)} · ${s.z!=null?fmtNum(s.z)+' m s.n.m.':'altitud no informada'}</span><br>${esc(s.reg)}</dd>
+    <dt>Propietario</dt><dd>${esc(s.p)}</dd>
+    <dt>Tipo</dt><dd>${esc(s.t)}</dd>
+    <dt>Datos</dt><dd>${s.i??'—'} – ${s.f??'—'} · ${s.cov==='Sí'?'cubre 2015–2026':'cobertura parcial de 2015–2026'}</dd>
+    <dt>Acceso</dt><dd>${esc(s.acc)}</dd>
+    ${s.no?`<dt>Notas</dt><dd>${esc(s.no)}</dd>`:''}
+    <dt>Ficha</dt><dd><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.u.replace(/^https?:\/\//,''))}</a></dd>
+   </dl>${ptab}`;
+  render();
+}
+document.getElementById('tb').addEventListener('click',e=>{const tr=e.target.closest('tr');if(tr)select(tr.dataset.id);});
+document.getElementById('tb').addEventListener('keydown',e=>{if(e.key==='Enter'){const tr=e.target.closest('tr');if(tr)select(tr.dataset.id);}});
+document.querySelectorAll('thead th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;render();});
+['fstate','ftipo','fres','fq','fcov'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+render();
+select(ST.find(s=>s.c==='SINCA 124').id);
+</script>
